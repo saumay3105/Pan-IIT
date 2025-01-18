@@ -76,8 +76,9 @@ def process_video_task(video_job_id):
     os.makedirs(os.path.dirname(audio_output_file), exist_ok=True)
 
     try:
+        print(video_job.language)
         visemes = generate_speech_and_viseme_from_text(
-            text=video_job.script, audio_output_file=audio_output_file
+            text=video_job.script, audio_output_file=audio_output_file, language=video_job.language
         )
 
         asyncio.run(
