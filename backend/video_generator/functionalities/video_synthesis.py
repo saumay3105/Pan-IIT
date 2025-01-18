@@ -28,11 +28,12 @@ def generate_text(text: str, context_list: list):
 
     llm_prompt = f"""
     Given the following text:
+    
     {text}
 
     For each element in the context list below, generate one factual, descriptive, and clear sentence that matches 
-    the context of that element. Each sentence should not exceed 25 words. Ensure the sequence of the output list 
-    aligns with the input list.
+    the context of that element. Each sentence should not exceed 25 words and should not be less than a complete sentence of 10 words. 
+    Ensure the sequence of the output list aligns with the input list.
 
     Context list:
     {context_list}
@@ -89,13 +90,14 @@ def generate_image_from_pollinations(prompt):
     """
     Fetch image bytes from pollinations.ai based on the prompt.
     """
-    width = 1218
+    width = 1300
     height = 1574
-    model = 'flux'
-    url = f"https://pollinations.ai/p/{prompt}?width={width}&height={height}&model={model}"
+    model = "flux"
+    seed = random.randint(1, 10000)
+    url = f"https://pollinations.ai/p/{prompt}?width={width}&height={height}&seed={seed}&model={model}"
     response = requests.get(url, timeout=200)
     if response.status_code == 200:
-        return response.content  
+        return response.content
     return None
 
 
@@ -143,7 +145,7 @@ async def fetch_images_as_clips(keywords):
             img = Image.open(BytesIO(img_data)).convert("RGB")
             img_np = np.array(img)  # Convert PIL image to NumPy array
             img_clip = ImageClip(img_np).set_duration(
-                5
+                6
             )  # Set duration of each image to 5 seconds
             clips.append(img_clip)
             print(f"Generated and added image for keyword: {keyword}")
@@ -156,7 +158,7 @@ async def fetch_images_as_clips(keywords):
 def generate_speech_and_viseme_from_text(
     text: str,
     audio_output_file: str = "output.wav",
-    voice: str = "Ananya",
+    language: str = "English",
 ):
     load_dotenv(find_dotenv())
     speech_key = os.environ["AZURE_SPEECH_API_KEY"]
@@ -166,8 +168,40 @@ def generate_speech_and_viseme_from_text(
     speech_config = speechsdk.SpeechConfig(
         subscription=speech_key, region=service_region
     )
+    languages = {
+        "English": "en-IN",
+        "Assamese": "as-IN",
+        "Bengali": "bn-IN",
+        "Gujarati": "gu-IN",
+        "Hindi": "hi-IN",
+        "Kannada": "kn-IN",
+        "Malayalam": "ml-IN",
+        "Marathi": "mr-IN",
+        "Nepali": "ne-IN",
+        "Punjabi": "pa-IN",
+        "Tamil": "ta-IN",
+        "Telugu": "te-IN",
+        "Urdu": "ur-IN",
+    }
+    indian_female_voices = {
+        "English": "en-IN-NeerjaNeural",
+        "Assamese": "as-IN-YashicaNeural",
+        "Bengali": "bn-IN-TanishaaNeural",
+        "Gujarati": "gu-IN-DhwaniNeural",
+        "Hindi": "hi-IN-AnanyaNeural",
+        "Kannada": "kn-IN-SapnaNeural",
+        "Malayalam": "ml-IN-SobhanaNeural",
+        "Marathi": "mr-IN-AarohiNeural",
+        "Nepali": "ne-NP-HemkalaNeural",
+        "Punjabi": "pa-IN-VaaniNeural",
+        "Tamil": "ta-IN-PallaviNeural",
+        "Telugu": "te-IN-ShrutiNeural",
+        "Urdu": "ur-IN-GulNeural",
+    }
+    print(indian_female_voices[language])
     # Set the voice based on the teacher's choice
-    speech_config.speech_synthesis_voice_name = f"en-IN-{voice}Neural"
+    speech_config.speech_synthesis_voice_name = f"{indian_female_voices[language]}"
+    speech_config.speech_synthesis_language = languages[language]
 
     # Create an audio configuration for saving the audio to a file
     audio_config = speechsdk.audio.AudioOutputConfig(filename=audio_output_file)
@@ -241,100 +275,87 @@ async def generate_video_from_script_fast(
         print("No images to generate video.")
 
 
-from moviepy.editor import *
-from moviepy.video.fx.fadein import fadein
-from moviepy.video.fx.fadeout import fadeout
-import random
-from PIL import Image, ImageDraw
-import numpy as np
+async def generate_video_from_script(
+    script: str, audio_output_file: str, video_output_file: str
+):
+    """
+    Fetch images for the given keywords, generate a video with random transitions, and overlay keywords
+    at a fixed position (bottom-left or bottom-center) on the images. The video matches the length of the audio.
+    """
 
-async def generate_video_from_script(script: str, audio_output_file: str, video_output_file: str):
-    """
-    Generate a video with random transitions between images, overlaid keywords, and matching audio length.
-    Uses fade transitions between clips.
-    """
     audio_clip = AudioFileClip(audio_output_file)
     audio_duration = audio_clip.duration
-    
+
     keywords = generate_keywords(script)
     texts = generate_text(script, keywords)
-    
+
     # Fetch image clips based on the keywords
     clips = await fetch_images_as_clips(keywords)
-    
-    if not clips:
+
+    if clips:
+        num_clips = len(clips)
+        # Calculate the duration each image should stay on screen based on the audio length
+        clip_duration = audio_duration / num_clips
+
+        landscape_clips = []
+        for i, clip in enumerate(clips):
+            # Get a frame from the clip
+            img = clip.get_frame(0)
+            pil_img = Image.fromarray(img)
+
+            # Draw a rectangle and place the keyword at the bottom-left or bottom-center
+            draw = ImageDraw.Draw(pil_img)
+            img_width, img_height = pil_img.size
+            rect_width, rect_height = img_width, 80  # Full width of the image
+            rect_x, rect_y = (
+                0,
+                img_height - rect_height - 20,
+            )  # Position at the very bottom
+
+            # Draw the rectangle at the fixed position
+            draw.rectangle(
+                [(rect_x, rect_y), (rect_x + rect_width, rect_y + rect_height)],
+                fill="yellow",
+            )
+
+            # Overlay the keyword - Handle text wrapping and prevent overflow
+            text = texts[i]
+            max_font_size = 28
+            font = "Arial-Bold"
+            wrapped_text = wrap_text(
+                text, rect_width - 20, max_font_size, font
+            )  # Wrap the text
+
+            # Create the text clip, scale down the font if necessary
+            text_clip = TextClip(
+                wrapped_text, fontsize=max_font_size, color="red", font=font
+            )
+            text_clip = text_clip.set_position((rect_x + 10, rect_y + 10)).set_duration(
+                clip_duration
+            )
+
+            # Convert the image back to a NumPy array
+            modified_img = np.array(pil_img)
+
+            # Create a new ImageClip from the modified image with the calculated duration
+            image_clip = ImageClip(modified_img).set_duration(clip_duration)
+
+            # Overlay the text on the image
+            composite_clip = CompositeVideoClip([image_clip, text_clip])
+
+            landscape_clips.append(composite_clip)
+
+        # Concatenate the clips with random transitions
+        video_clip = concatenate_videoclips(landscape_clips, method="compose")
+
+        # Add the audio to the video
+        final_video = video_clip.set_audio(audio_clip)
+
+        # Save the final video with the specified output file name
+        final_video.write_videofile(video_output_file, fps=24)
+        print(f"Video saved as {video_output_file}")
+    else:
         print("No images to generate video.")
-        return
-        
-    num_clips = len(clips)
-    # Calculate base duration for each clip, leaving room for transitions
-    fade_duration = 1  # 1 second fade
-    total_transition_time = (num_clips - 1) * fade_duration
-    base_clip_duration = (audio_duration - total_transition_time) / num_clips
-    
-    landscape_clips = []
-    final_clips = []  # Store clips with transitions
-    
-    for i, clip in enumerate(clips):
-        # Get a frame from the clip
-        img = clip.get_frame(0)
-        pil_img = Image.fromarray(img)
-        
-        # Draw rectangle and text
-        draw = ImageDraw.Draw(pil_img)
-        img_width, img_height = pil_img.size
-        rect_width, rect_height = img_width, 80
-        rect_x, rect_y = (0, img_height - rect_height - 20)
-        
-        # Draw the rectangle
-        draw.rectangle(
-            [(rect_x, rect_y), (rect_x + rect_width, rect_y + rect_height)],
-            fill="yellow"
-        )
-        
-        # Handle text
-        text = texts[i]
-        max_font_size = 30
-        font = "Arial-Bold"
-        wrapped_text = wrap_text(text, rect_width - 20, max_font_size, font)
-        
-        # Create text clip
-        text_clip = TextClip(
-            wrapped_text,
-            fontsize=max_font_size,
-            color="red",
-            font=font
-        ).set_position((rect_x + 10, rect_y + 10))
-        
-        # Convert image back to numpy array
-        modified_img = np.array(pil_img)
-        
-        # Create base clip with text overlay
-        image_clip = ImageClip(modified_img).set_duration(base_clip_duration)
-        composite_clip = CompositeVideoClip([image_clip, text_clip.set_duration(base_clip_duration)])
-        
-        # Apply transitions
-        if i > 0:  # All clips except the first one get a fade in
-            composite_clip = composite_clip.fx(fadein, fade_duration)
-        if i < num_clips - 1:  # All clips except the last one get a fade out
-            composite_clip = composite_clip.fx(fadeout, fade_duration)
-        
-        # Set the start time for each clip
-        if i > 0:
-            start_time = i * (base_clip_duration - fade_duration)
-            composite_clip = composite_clip.set_start(start_time)
-        
-        final_clips.append(composite_clip)
-    
-    # Create the final video with overlapping transitions
-    final_video = CompositeVideoClip(final_clips)
-    
-    # Add audio
-    final_video = final_video.set_audio(audio_clip)
-    
-    # Write the final video
-    final_video.write_videofile(video_output_file, fps=24)
-    print(f"Video saved as {video_output_file}")
 
 
 def wrap_text(text, max_width, font_size, font_name):
@@ -353,9 +374,8 @@ def wrap_text(text, max_width, font_size, font_name):
         if text_width <= max_width:
             break
         else:
-            max_font_size -= 2  # Decrease the font size and try again
+            max_font_size -= 2
 
-        # Stop if the font size becomes too small
         if max_font_size < 12:
             break
 
