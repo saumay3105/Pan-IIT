@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
-
+import logging.config
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -30,7 +30,10 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
-
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "http://127.0.0.1:3000",
+# ]
 
 # Application definition
 
@@ -53,6 +56,7 @@ INSTALLED_APPS = [
     "dj_rest_auth.registration",
     "users",
     "core",
+    "video_generator",
 ]
 SITE_ID = 1
 
@@ -64,11 +68,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-<<<<<<< Updated upstream
     "corsheaders.middleware.CorsMiddleware",
     "allauth.account.middleware.AccountMiddleware",
-=======
->>>>>>> Stashed changes
 ]
 
 ROOT_URLCONF = "adwise.urls"
@@ -180,11 +181,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 # Path to store different types of media files.
 UPLOADED_DOCUMENTS_FOLDER = os.path.join(MEDIA_ROOT, "uploaded_documents")
+GENERATED_VIDEOS_FOLDER = os.path.join(MEDIA_ROOT, "generated_videos")
+TEMPORARY_ASSETS_FOLDER = os.path.join(MEDIA_ROOT, "temp_assets")
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-<<<<<<< Updated upstream
 
 # Celery setup
 CELERY_BROKER_URL = "redis://localhost:6379/0"  # Use Redis as broker
@@ -194,5 +196,95 @@ CELERY_RESULT_BACKEND = "redis://localhost:6379/0"
 CELERY_RESULT_SERIALIZER = "json"
 CELERY_TIMEZONE = "UTC"
 CELERYD_CONCURRENCY = 4
-=======
->>>>>>> Stashed changes
+
+LOG_DIR = os.path.join(BASE_DIR, "logs")
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "standard": {
+            "format": "[%(asctime)s] %(levelname)s [%(filename)s:%(lineno)s] [%(funcName)s] %(message)s",
+            "datefmt": "%d/%b/%Y %H:%M:%S",
+        },
+        "colored": {
+            "()": "colorlog.ColoredFormatter",
+            "format": "[%(asctime)s] %(log_color)s%(levelname)-8s [%(filename)s:%(lineno)s] [%(funcName)s] %(message)s",
+            "datefmt": "%d/%b/%Y %H:%M:%S",
+            "log_colors": {
+                "DEBUG": "cyan",
+                "INFO": "light_white",
+                "WARNING": "yellow",
+                "ERROR": "red",
+                "CRITICAL": "red,bg_white",
+            },
+        },
+    },
+    "handlers": {
+        "debug_log": {
+            "level": "DEBUG",
+            "class": "logging.handlers.TimedRotatingFileHandler",
+            "when": "midnight",
+            "interval": 1,
+            "backupCount": 5,
+            "filename": os.path.join(LOG_DIR, "debug.log"),
+            "formatter": "standard",
+            "encoding": "utf8",
+            "delay": True,
+        },
+        "info_log": {
+            "level": "INFO",
+            "class": "logging.handlers.TimedRotatingFileHandler",
+            "when": "midnight",
+            "interval": 1,
+            "backupCount": 5,
+            "filename": os.path.join(LOG_DIR, "info.log"),
+            "formatter": "standard",
+            "encoding": "utf8",
+            "delay": True,
+        },
+        "error_log": {
+            "level": "ERROR",
+            "class": "logging.handlers.TimedRotatingFileHandler",
+            "when": "midnight",
+            "interval": 1,
+            "backupCount": 5,
+            "filename": os.path.join(LOG_DIR, "error.log"),
+            "formatter": "standard",
+            "encoding": "utf8",
+            "delay": True,
+        },
+        "console": {
+            "level": "DEBUG",
+            "class": "logging.StreamHandler",
+            "formatter": "colored",
+        },
+    },
+    "root": {
+        "handlers": ["console"],
+        "level": "DEBUG",
+    },
+    "loggers": {
+        "taskmanager": {
+            "handlers": ["debug_log", "info_log", "error_log"],
+            "level": "DEBUG",
+        },
+        "sources": {
+            "handlers": ["debug_log", "info_log", "error_log"],
+            "level": "DEBUG",
+        },
+        "django.server": {
+            "handlers": ["console", "debug_log", "info_log", "error_log"],
+            "level": "DEBUG",
+        },
+        "celery.worker": {
+            "handlers": ["info_log", "error_log"],
+            "level": "DEBUG",
+        },
+        "celery.pool": {
+            "handlers": ["debug_log", "info_log", "error_log"],
+            "level": "DEBUG",
+        },
+    },
+}
+logging.config.dictConfig(LOGGING)

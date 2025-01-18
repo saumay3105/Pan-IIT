@@ -1,0 +1,16 @@
+
+backend/.env
+/backend/media/uploaded_documents
+/backend/media/temp_asset
+/backend/media
+/backend/users/__pycache__
+/backend/video_generator/__pycache__
+/backend/video_generator/functionalities/__pycache__
+/backend/video_generator/migrations/__pycache__
+/backend/core/__pycache__
+/backend/core/migrations/__pycache__
+/backend/core/utils/__pycache__
+/backend/core/migrations/__pycache__
+/backend/adwise/__pycache__
+/backend/core/migrations/__pycache__
+/backend/core/migrations/__pycache__

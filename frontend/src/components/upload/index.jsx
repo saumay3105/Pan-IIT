@@ -51,29 +51,14 @@ const FileUpload = () => {
     setLoading(true);
 
     try {
-      if (state.type === "quiz") {
-        const response = await fetch("http://127.0.0.1:8000/generate-questions/", {
-          method: "POST",
-          body: formData,
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const result = await response.json();
-        localStorage.setItem("quizData", JSON.stringify(result.data));
-        navigate("/quiz");
-      } else {
-        const response = await axios.post(
-          "http://127.0.0.1:8000/generate-video/",
-          formData,
-          { headers: { "Content-Type": "multipart/form-data" } }
-        );
-        if (response.status === 202) {
-          localStorage.setItem("currentJobId", response.data.job_id);
-          navigate("/video/processing");
-        }
+      const response = await axios.post(
+        "http://127.0.0.1:8000/generate-video/",
+        formData,
+        { headers: { "Content-Type": "multipart/form-data" } }
+      );
+      if (response.status === 202) {
+        localStorage.setItem("currentJobId", response.data.job_id);
+        navigate("/video/processing");
       }
     } catch (error) {
       console.error("Upload error:", error);
