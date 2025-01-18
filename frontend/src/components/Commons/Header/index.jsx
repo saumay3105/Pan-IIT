@@ -33,7 +33,10 @@ function Header() {
           ) : (
             <ul>
               <li>
-                <Link to="/create">Dashboard</Link>
+                <Link to="/social-login">Connect To Socials</Link>
+              </li>
+              <li>
+                <Link to="/create">Create</Link>
               </li>
               <li>
                 <Link to="/profile">Hi, {user.full_name.split(" ")[0]}</Link>
