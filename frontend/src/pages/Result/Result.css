@@ -1,0 +1,257 @@
+.result-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  padding-top: 5px;
+  max-width: 1200px;
+  margin: 0 auto;
+  max-height: auto;
+  margin-top: 20px;
+}
+
+.result-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.result-item {
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.result-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 8px;
+}
+
+.result-label {
+  font-size: 14px;
+  color: #666;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.result-value {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.result-score {
+  background-color: #e3f2fd;
+  color: #1e88e5;
+}
+
+.result-accuracy {
+  background-color: #e8f5e9;
+  color: #43a047;
+}
+
+.result-streak {
+  background-color: #fff8e1;
+  color: #ffa000;
+}
+
+.result-time {
+  background-color: #f3e5f5;
+  color: #8e24aa;
+}
+
+.result-chart {
+  margin-bottom: 24px;
+}
+
+.charts-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.chart-title{
+  display: flex;
+  justify-content: center;
+}
+
+.chart-card{
+  min-width: 300px;
+}
+
+.result-legend {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.legend-correct {
+  background-color: #4caf50;
+}
+
+.legend-incorrect {
+  background-color: #f44336;
+}
+
+.legend-label {
+  font-size: 14px;
+}
+
+.restart-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #2196f3;
+  color: white;
+  border: solid #2196f3;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.restart-button:hover {
+  background-color: white;
+  color: #2196f3;
+  border: solid #2196f3;
+}
+
+.analysis-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.analysis-card {
+  background: #f7fafc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+}
+
+.proficiency{
+  display: flex;
+  flex-direction: column;
+}
+
+.analysis-card h4 {
+  font-size: 1.25rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.strengths-weaknesses {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.strengths {
+  height: auto;
+  min-height: 0px;
+}
+
+.analysis-time-management{
+  display: flex;
+  justify-content: space-around;
+}
+
+.topic-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.topic-card h5 {
+  font-size: 1.1rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.mastery-level {
+  color: #4a5568;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.revision-points, .resources {
+  margin-top: 1rem;
+}
+
+.revision-points h6, .resources h6 {
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+.revision-points ul, .resources ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #4a5568;
+}
+
+.inline-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.analysis-loading {
+  text-align: center;
+  padding: 2rem;
+  color: #4a5568;
+}
+
+.analysis-error {
+  text-align: center;
+  padding: 2rem;
+  color: #e53e3e;
+  background: #fff5f5;
+  border-radius: 0.5rem;
+}
+.mastery-badge{
+  padding: 3px;
+}
+.proficiency-badge{
+  padding: 3px;
+
+}

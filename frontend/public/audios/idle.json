@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "soundFile": "/Users/srishtiparulekar/Desktop/TY/Bajaj-HackRx-5.0/talkingAvatar/public/audios/./idle.wav",
+    "duration": 2.23
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 2.23, "value": "X" }
+  ]
+}
