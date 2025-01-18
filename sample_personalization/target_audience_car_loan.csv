@@ -1,0 +1,953 @@
+Name,age,job,marital,education,default,balance,housing,loan,day,month,duration,campaign,pdays,previous,poutcome,y,Phone,Email,Address,Has_4_Wheeler,Highest_Time_Spent_Website,Highest_Time_Spent
+Alexis Ferrell,48,technician,divorced,secondary,no,177,yes,no,8,may,471,1,-1,0,unknown,no,5649358953,surya.stark66@gmail.com,"887 Zachary Ford
+Ashleyhaven, NE 25273",False,capitalone.com/auto-loans,199
+Ravi Surya,31,blue-collar,single,tertiary,no,-701,yes,no,27,may,42,3,-1,0,unknown,no,5193442466,surya03.ravi@gmail.com,"1592 Dennis Extensions
+South Joshua, MI 40355",False,capitalone.com/auto-loans,164
+Joseph Mann,53,services,married,primary,no,49,no,no,28,may,152,1,-1,0,unknown,no,2549845845,surya.rscp@gmail.com,"00038 Macias Hollow Apt. 216
+Lake Matthewchester, GA 03505",False,capitalone.com/auto-loans,156
+Ashley Carter,33,management,married,tertiary,no,273,yes,no,16,may,803,1,-1,0,unknown,yes,3132239912,luis92@example.net,"74110 Brandon Mill Suite 647
+West Micheal, AZ 33318",False,capitalone.com/auto-loans,154
+Jill Harris,40,blue-collar,married,primary,yes,0,yes,no,6,may,64,2,-1,0,unknown,no,3568682525,tiffanyglenn@example.org,"0116 Alexander Forges Apt. 941
+Dominguezton, NH 45199",False,capitalone.com/auto-loans,154
+Justin Murray,32,admin.,divorced,secondary,no,281,yes,no,8,may,231,4,-1,0,unknown,no,5128618790,georgewiley@example.com,"3363 Glen Light
+North Grace, OR 14645",False,capitalone.com/auto-loans,153
+Steven Jackson,32,management,single,tertiary,no,11315,no,no,23,may,286,1,-1,0,unknown,no,2119573671,margaret91@example.com,"62762 Thomas Loop Suite 247
+Danielleview, NM 74559",False,capitalone.com/auto-loans,153
+Ashley Rodriguez,44,admin.,married,secondary,no,0,no,no,26,may,85,3,-1,0,unknown,no,3565557976,rodriguezwendy@example.com,"439 Matthew Radial Suite 414
+North Jessica, TN 92907",False,capitalone.com/auto-loans,150
+Andrew Smith,46,technician,divorced,secondary,no,3455,yes,no,14,may,566,2,-1,0,unknown,no,3578060075,barrywoods@example.net,"7796 Shannon Ferry Apt. 293
+Pamelaside, CO 29520",False,capitalone.com/auto-loans,148
+Pamela Nicholson,29,self-employed,married,tertiary,no,751,yes,no,23,may,121,2,-1,0,unknown,no,4365580056,kennethmiles@example.com,"Unit 7954 Box 1606
+DPO AE 43959",False,capitalone.com/auto-loans,148
+Teresa Buckley MD,33,admin.,divorced,primary,no,1416,yes,no,2,jun,239,4,-1,0,unknown,no,8447264884,paynelorraine@example.org,"36451 Andrew Burg Suite 860
+Pattersonport, ME 25404",False,capitalone.com/auto-loans,144
+Robin Duarte,39,blue-collar,married,primary,no,0,no,no,29,may,191,5,-1,0,unknown,no,3747995417,rogerslori@example.net,"157 Kristina Shoals Suite 480
+Kellyborough, OH 98715",False,capitalone.com/auto-loans,143
+Carla Robertson,33,management,single,tertiary,no,541,yes,yes,21,may,572,1,-1,0,unknown,no,8205252813,mcguireanthony@example.net,"USNV Lyons
+FPO AP 94179",False,capitalone.com/auto-loans,141
+Andre Montes,38,blue-collar,single,secondary,no,68,no,no,5,jun,90,2,-1,0,unknown,no,8455315431,felicialewis@example.net,"13926 Santos Brook Apt. 344
+Griffinview, GA 65760",False,capitalone.com/auto-loans,141
+Cynthia Parker,36,blue-collar,married,secondary,no,1772,no,no,5,jun,208,1,-1,0,unknown,yes,5286944803,hunterchelsey@example.com,"780 Brittany Way Apt. 066
+Willisstad, LA 47899",False,capitalone.com/auto-loans,140
+Jennifer Miller,49,management,married,secondary,no,362,yes,no,4,jun,84,2,-1,0,unknown,no,6347440201,samanthadelgado@example.com,"564 Rhonda Mall
+Garciastad, NE 22378",False,capitalone.com/auto-loans,138
+Jessica Warner,51,management,single,unknown,no,-461,yes,no,28,may,33,2,-1,0,unknown,no,9353467263,mooregina@example.com,"3456 Reyes Centers Suite 194
+Waltonberg, WI 60727",False,capitalone.com/auto-loans,138
+Tonya Martin,36,admin.,married,secondary,no,1954,yes,yes,30,may,199,3,-1,0,unknown,no,9787450077,smithkatherine@example.org,"PSC 0555, Box 2805
+APO AA 39672",False,capitalone.com/auto-loans,137
+Sherri Rodriguez,39,services,married,secondary,no,-119,no,yes,5,jun,104,2,-1,0,unknown,no,2444084229,trevorgibbs@example.org,"6957 Kellie Views
+Shannonburgh, ID 70720",False,capitalone.com/auto-loans,135
+Rachel Barrett,29,management,single,tertiary,no,1566,yes,no,4,jun,233,1,-1,0,unknown,no,4897296855,kaylee21@example.org,"788 Swanson Mills Apt. 405
+New Jason, GU 37080",False,capitalone.com/auto-loans,134
+Travis Mitchell,32,management,single,tertiary,no,974,yes,no,3,jun,228,1,-1,0,unknown,no,4763401468,natalie64@example.com,"PSC 0905, Box 6458
+APO AA 82162",False,capitalone.com/auto-loans,134
+Teresa Carlson,32,admin.,married,secondary,no,739,yes,yes,28,may,153,3,-1,0,unknown,no,9302057283,usantos@example.org,"272 Johnson Mountains
+North Jenniferview, VT 33554",False,capitalone.com/auto-loans,134
+Anthony Brock,47,technician,single,unknown,no,-213,yes,no,26,may,168,1,-1,0,unknown,no,7385439254,qblankenship@example.net,"007 Gibbs Union Suite 912
+Port Stephenmouth, MD 37820",False,capitalone.com/auto-loans,132
+Jason Snyder,50,blue-collar,married,primary,no,231,yes,no,16,may,171,4,-1,0,unknown,no,9083462623,joshua96@example.org,"32243 Weber Circles
+Santanaton, OH 34952",False,capitalone.com/auto-loans,132
+Diana Perry,40,entrepreneur,divorced,unknown,no,2418,yes,yes,2,jun,181,16,-1,0,unknown,no,6834347732,diazjeffrey@example.org,"USS Wilson
+FPO AE 09983",False,capitalone.com/auto-loans,132
+Ryan Hernandez,48,blue-collar,married,secondary,no,653,yes,no,27,may,24,1,-1,0,unknown,no,9638383583,pmyers@example.com,"199 Sydney Bypass
+West Ashleyside, MS 04773",False,capitalone.com/auto-loans,131
+Kimberly Caldwell,40,management,single,tertiary,no,2784,yes,no,19,may,181,1,-1,0,unknown,no,2804428610,brewerjimmy@example.com,"32304 Wilson Forge Suite 264
+North Laurenmouth, VT 65567",False,capitalone.com/auto-loans,131
+Joseph Thornton,40,admin.,divorced,secondary,no,1000,yes,no,14,may,98,1,-1,0,unknown,no,4392246664,cynthia34@example.net,"328 Janet Club Suite 954
+Valentineland, SD 58525",False,capitalone.com/auto-loans,130
+Andrew Richardson,36,housemaid,single,tertiary,no,561,no,no,6,jun,274,2,-1,0,unknown,no,5355706615,christina35@example.net,"89518 Jessica River
+East Melissa, AL 46658",False,capitalone.com/auto-loans,130
+Jennifer Roberts,25,blue-collar,married,secondary,no,300,yes,yes,19,may,126,3,-1,0,unknown,no,6686193375,kbean@example.net,"60579 Zachary Mountain Apt. 209
+Port Lisafurt, MS 16577",False,capitalone.com/auto-loans,130
+Karen Shepard,36,management,married,tertiary,no,428,no,no,28,may,121,1,-1,0,unknown,no,5376700191,brittneyconner@example.org,"Unit 9883 Box 7095
+DPO AE 14911",False,capitalone.com/auto-loans,129
+Tiffany Phillips,29,management,single,tertiary,no,-233,yes,no,19,may,329,1,-1,0,unknown,no,4179054697,uquinn@example.com,"3330 Marks Views Suite 498
+Smithfurt, VT 67394",False,capitalone.com/auto-loans,129
+Amanda Williams,49,blue-collar,married,primary,no,284,yes,no,19,may,81,1,-1,0,unknown,no,4665676756,rojasnathan@example.net,"1137 Justin Gateway Apt. 855
+Kellyport, LA 23084",False,capitalone.com/auto-loans,128
+Mr. Brett Edwards PhD,53,retired,married,primary,no,2010,no,yes,6,jun,182,1,-1,0,unknown,no,5535724816,meganallen@example.com,"Unit 0214 Box 1318
+DPO AP 97516",False,capitalone.com/auto-loans,127
+John Norton,46,blue-collar,married,primary,no,881,yes,no,9,may,126,2,-1,0,unknown,no,8102088988,robertsshannon@example.com,"6009 Thomas Mount Apt. 515
+South Melissa, WY 00984",False,capitalone.com/auto-loans,127
+David Smith,55,management,married,tertiary,no,685,yes,no,5,may,174,3,-1,0,unknown,no,2363263385,dustinosborne@example.net,"USNS Salinas
+FPO AA 49389",False,capitalone.com/auto-loans,127
+Daniel Adams,36,admin.,single,secondary,no,0,yes,yes,28,may,117,6,-1,0,unknown,no,5367672756,kayla38@example.org,"597 Ramos Summit
+Harrisland, UT 63409",False,capitalone.com/auto-loans,126
+Jennifer Thomas,35,blue-collar,single,unknown,yes,-532,yes,no,7,may,149,1,-1,0,unknown,no,8947101129,fowleranthony@example.net,"Unit 4307 Box 8123
+DPO AP 11689",False,capitalone.com/auto-loans,126
+Alicia Mayer,60,technician,married,secondary,no,2639,yes,no,14,may,483,2,-1,0,unknown,no,4378094685,amiller@example.com,"9423 Christopher Circles Apt. 363
+Lake Nicole, TN 23921",False,capitalone.com/auto-loans,126
+Jerry Bridges,52,blue-collar,married,unknown,no,-4,no,no,26,may,336,3,-1,0,unknown,no,8829907681,ramseyjennifer@example.net,"15387 Willie Meadow
+Smithville, DC 39061",False,capitalone.com/auto-loans,126
+Sonia Garcia,60,technician,divorced,tertiary,no,-317,yes,no,27,may,498,1,-1,0,unknown,no,5783050306,boydfrances@example.org,"2545 Richards Stravenue
+West Rachelstad, GU 15304",False,capitalone.com/auto-loans,125
+Richard Wong,42,blue-collar,married,primary,no,1059,yes,no,20,may,163,2,-1,0,unknown,no,7803885635,jessica70@example.org,"USS Bailey
+FPO AP 69050",False,capitalone.com/auto-loans,125
+Maria Ellison,40,management,married,tertiary,no,413,yes,no,14,may,150,1,-1,0,unknown,no,6425393710,btownsend@example.org,"24094 Rebecca Trafficway Apt. 802
+Suzanneberg, TN 87132",False,capitalone.com/auto-loans,124
+Alison Suarez,43,technician,divorced,secondary,no,177,yes,no,8,may,209,3,-1,0,unknown,no,9743956810,patriciamurphy@example.com,"398 Janet Crescent Apt. 220
+Gatesport, WI 21682",False,capitalone.com/auto-loans,124
+Christopher Rasmussen,47,blue-collar,married,primary,no,521,yes,no,13,may,262,1,-1,0,unknown,no,3022563521,zjones@example.com,"33906 Walker Fords
+New Joshua, UT 23077",False,capitalone.com/auto-loans,124
+Joshua Powers,33,admin.,married,secondary,no,0,no,no,19,may,326,2,-1,0,unknown,no,2782227886,mackjeffrey@example.com,"6761 Sabrina Hill Suite 454
+Angelaborough, ND 21088",False,capitalone.com/auto-loans,124
+Barry Lutz,43,technician,married,secondary,no,-1701,yes,no,26,may,285,1,-1,0,unknown,no,8268828041,brittanysmith@example.net,"88265 Lester Tunnel
+North Dianeberg, WV 67922",False,capitalone.com/auto-loans,123
+John King,49,blue-collar,married,primary,no,902,no,no,9,jun,210,2,-1,0,unknown,no,2846280640,bradshawmichael@example.org,"7079 Thomas Forge Apt. 537
+Jefferyhaven, HI 49308",False,capitalone.com/auto-loans,123
+Amanda Mcpherson,38,blue-collar,married,secondary,no,2836,no,no,6,jun,116,3,-1,0,unknown,no,6019634399,foleydalton@example.org,"396 Thomas Motorway Apt. 852
+North Chelseastad, IN 93979",False,capitalone.com/auto-loans,122
+Deborah Morton,30,management,single,tertiary,no,1243,yes,no,23,may,135,1,-1,0,unknown,no,3527948283,ann15@example.net,"1055 James Stream
+Kristopherberg, GA 60654",False,capitalone.com/auto-loans,122
+Joseph Simmons,30,services,divorced,secondary,no,63,yes,no,29,may,96,5,-1,0,unknown,no,7518438000,angela71@example.com,"58086 Hall Camp
+Port Michelle, MI 86237",False,capitalone.com/auto-loans,121
+Luis Mendoza,57,retired,divorced,secondary,no,70,yes,no,16,may,122,1,-1,0,unknown,no,6168666352,lisa49@example.net,"4995 Wood Pass Suite 681
+Arellanofort, IA 59583",False,capitalone.com/auto-loans,121
+Douglas Meza,43,management,divorced,tertiary,no,443,yes,no,9,may,219,1,-1,0,unknown,no,2879554433,allenjames@example.net,"Unit 3655 Box 7418
+DPO AA 43900",False,capitalone.com/auto-loans,121
+Matthew Hamilton,34,services,married,secondary,no,-315,yes,no,8,may,56,2,-1,0,unknown,no,2449991012,bstevens@example.org,"0186 King View Apt. 664
+Evansborough, MO 08564",False,capitalone.com/auto-loans,121
+Jennifer Mendoza,41,admin.,married,secondary,no,351,yes,no,5,may,518,1,-1,0,unknown,no,8399278141,jonathanhurst@example.net,"068 Howard Mews Suite 970
+South Kerryberg, CA 08484",False,capitalone.com/auto-loans,120
+Sarah Blankenship,26,blue-collar,single,secondary,no,100,yes,no,9,may,24,1,-1,0,unknown,no,8905157237,ddennis@example.org,"970 Tran Place Apt. 227
+Lake Megan, IA 07523",False,capitalone.com/auto-loans,120
+Robert Wright,37,services,married,secondary,no,1,no,no,15,may,395,2,-1,0,unknown,no,5683728425,hardyaaron@example.org,"13406 Wilkerson Fort
+North Jacob, KS 55297",False,capitalone.com/auto-loans,119
+Scott Lester,34,management,married,secondary,no,293,yes,no,21,may,162,3,-1,0,unknown,no,3096708721,kpratt@example.com,"PSC 8894, Box 0055
+APO AE 63408",False,capitalone.com/auto-loans,118
+Sherry Simpson,43,blue-collar,married,primary,no,487,yes,no,7,may,548,2,-1,0,unknown,no,9816751642,susansilva@example.net,"82426 Brianna Mountain
+Lake Michael, OR 37301",False,capitalone.com/auto-loans,118
+Joseph Fox,42,blue-collar,married,secondary,no,30,no,no,8,may,366,2,-1,0,unknown,no,4138898368,valdezbrian@example.org,"501 Sara Roads Apt. 541
+East Hannah, RI 73032",False,capitalone.com/auto-loans,118
+Dennis Swanson,31,blue-collar,single,secondary,no,-745,yes,no,13,may,227,1,-1,0,unknown,no,5387260695,henryjeanne@example.net,"271 Mary Alley
+Michaeltown, TN 36029",False,capitalone.com/auto-loans,118
+Debra Bullock,60,retired,married,primary,no,1542,yes,no,14,may,930,1,-1,0,unknown,yes,3322881587,douglas71@example.net,"304 Andrew Rapid Apt. 517
+Port Robertberg, ME 78450",False,capitalone.com/auto-loans,118
+Heather Fuentes,44,entrepreneur,married,tertiary,no,3689,yes,no,16,may,134,3,-1,0,unknown,no,9324393710,jonathanandrade@example.net,"60744 Wilson Ford Suite 632
+Port Thomas, NE 25718",False,capitalone.com/auto-loans,118
+Jill Anderson,60,technician,divorced,secondary,no,0,no,no,6,jun,105,1,-1,0,unknown,no,2219837164,benjamin66@example.com,"882 Webb Run
+Rebekahport, GA 38992",False,capitalone.com/auto-loans,118
+Allison Moreno,32,blue-collar,married,primary,no,-89,yes,no,9,may,389,2,-1,0,unknown,no,6709775943,wardsara@example.net,"05594 Dale Ridge
+Cuevasland, MD 00536",False,capitalone.com/auto-loans,117
+Elizabeth Calderon,29,self-employed,married,tertiary,yes,-1083,yes,no,4,jun,139,2,-1,0,unknown,no,7237367862,kevin96@example.org,"471 Smith Turnpike
+New Jeremiahmouth, MS 46332",False,capitalone.com/auto-loans,115
+Michele Hanson,30,management,single,tertiary,no,3773,yes,no,27,may,99,1,-1,0,unknown,no,3764943698,stokesbrent@example.com,"6077 Morales Cliffs Apt. 844
+Lauraborough, WI 53563",False,capitalone.com/auto-loans,114
+Joshua Carson,28,entrepreneur,single,tertiary,no,219,yes,no,27,may,257,1,-1,0,unknown,no,9152035353,drichmond@example.com,"5364 Mccarty Stream
+West Shaunchester, MO 06980",False,capitalone.com/auto-loans,114
+Marissa Sosa,32,services,married,secondary,no,250,yes,no,29,may,202,1,-1,0,unknown,no,2274505980,ulin@example.com,"7716 Benitez Haven Apt. 109
+Reedside, CO 87906",False,capitalone.com/auto-loans,114
+Tiffany Nicholson,42,admin.,single,primary,no,629,yes,no,29,may,164,3,-1,0,unknown,no,8904528821,richardmitchell@example.net,"7528 Donna Lake Apt. 551
+Lake Travismouth, WA 18908",False,capitalone.com/auto-loans,114
+Teresa Gilbert,40,admin.,married,secondary,no,0,yes,no,23,may,193,2,-1,0,unknown,no,8498737559,dennis97@example.com,"367 Brown Gardens Suite 958
+North Deannaborough, GU 14262",False,capitalone.com/auto-loans,114
+James Collins,35,technician,married,secondary,no,23,yes,no,26,may,147,1,-1,0,unknown,no,4908943744,ricerussell@example.org,"5820 Leonard Hollow Apt. 497
+West Larrystad, MS 91641",False,capitalone.com/auto-loans,114
+Mark Brown,38,blue-collar,married,primary,no,0,no,no,13,may,209,2,-1,0,unknown,no,5072035630,walterbutler@example.net,"3702 Strickland Falls
+Port Samantha, NY 35302",False,capitalone.com/auto-loans,114
+Angel Johnson,47,blue-collar,married,secondary,no,290,yes,no,20,may,409,2,-1,0,unknown,no,2076034527,anthony53@example.org,"0073 Howe Prairie Apt. 529
+Port Brendanton, GU 44413",False,capitalone.com/auto-loans,114
+Stephanie Williams,44,services,single,secondary,no,0,yes,no,14,may,198,1,-1,0,unknown,no,3284134584,fowleramy@example.com,"64781 Keith Extension
+Port Kathryn, LA 82090",False,capitalone.com/auto-loans,113
+Heather Goodman,40,admin.,married,secondary,no,2523,yes,no,16,may,75,1,-1,0,unknown,no,9505936445,hlee@example.net,"901 Acosta Summit Apt. 841
+Stevensonchester, TN 73082",False,capitalone.com/auto-loans,113
+Deanna Nelson,51,blue-collar,married,primary,no,173,yes,no,5,may,529,2,-1,0,unknown,no,4003644078,kflores@example.net,"503 Rowland Park Apt. 114
+Sanchezhaven, WI 61937",False,capitalone.com/auto-loans,112
+Erin Johnson,49,management,divorced,tertiary,no,-2049,yes,no,30,may,169,3,-1,0,unknown,no,6368062177,cartermeagan@example.net,"PSC 0471, Box 9443
+APO AA 94391",False,capitalone.com/auto-loans,112
+Anna Smith,29,management,married,tertiary,no,168,yes,no,28,may,119,1,-1,0,unknown,no,5123261290,simmonstyler@example.com,"21097 Kevin Burgs
+Morrisberg, AK 06079",False,capitalone.com/auto-loans,112
+Jeffrey Lewis,26,management,single,tertiary,no,2692,no,no,28,may,159,2,-1,0,unknown,no,9889589552,bpierce@example.org,"14171 Hernandez Manor
+Spencerstad, KY 68008",False,capitalone.com/auto-loans,112
+Mr. Jonathan Johnson,40,management,married,tertiary,no,384,no,no,28,may,191,2,-1,0,unknown,no,2465312815,cbrown@example.net,"39600 Williams Groves Apt. 020
+Danielshire, WV 68819",False,capitalone.com/auto-loans,111
+Mark Boyd,37,blue-collar,married,secondary,no,311,yes,no,4,jun,135,1,-1,0,unknown,no,7235554000,alyssa15@example.com,"420 Smith Shoal
+Rodriguezside, GA 22916",False,capitalone.com/auto-loans,111
+Gloria Patterson,30,services,married,secondary,no,-95,yes,yes,26,may,306,3,-1,0,unknown,no,4954855537,richardbass@example.net,"1334 Berger Stream Apt. 205
+Jennifermouth, FL 52100",False,capitalone.com/auto-loans,111
+Patrick Gonzalez Jr.,36,blue-collar,married,secondary,no,-870,yes,no,26,may,102,2,-1,0,unknown,no,5936540802,cchen@example.net,"617 Molly Track
+Matthewton, ME 48790",False,capitalone.com/auto-loans,111
+Amanda Martinez,49,technician,married,secondary,no,378,no,no,9,jun,189,2,-1,0,unknown,no,5074410194,vickiboyd@example.org,"747 Belinda Mount
+Charlesburgh, ME 92860",False,capitalone.com/auto-loans,110
+Jacob Jenkins,32,blue-collar,married,secondary,no,489,yes,no,20,may,212,1,-1,0,unknown,no,9214090896,jacksoncameron@example.net,"300 Lucas Lane Suite 161
+South Reginaldborough, MI 46071",False,capitalone.com/auto-loans,108
+Kristen Hall,28,technician,married,secondary,no,839,yes,no,27,may,240,2,-1,0,unknown,no,7199519764,louis01@example.com,"659 Reyes Pike Suite 516
+Davidport, HI 74281",False,capitalone.com/auto-loans,108
+Alan Phillips,41,management,married,tertiary,no,6060,yes,no,15,may,71,2,-1,0,unknown,no,7693968081,jerome19@example.net,"991 Strong Dale
+Patricktown, CT 50210",False,capitalone.com/auto-loans,107
+Courtney Martinez,53,services,married,secondary,no,367,yes,yes,13,may,284,2,-1,0,unknown,no,5476157520,pkey@example.net,"37093 Garrett Dale
+Rosalesview, VT 05291",False,capitalone.com/auto-loans,107
+Patrick Davis,49,management,married,tertiary,no,3237,yes,no,5,may,232,3,-1,0,unknown,no,5095972350,brentball@example.net,"204 Shannon Cliff Suite 713
+Reynoldsberg, UT 81967",False,capitalone.com/auto-loans,107
+Jason Taylor,46,blue-collar,married,primary,no,328,yes,no,21,may,526,8,-1,0,unknown,no,8554411852,aaron28@example.com,"671 Daniel Summit
+Allenhaven, WY 77030",False,capitalone.com/auto-loans,107
+Stacy Ramos,33,blue-collar,married,secondary,no,58,no,no,16,may,144,2,-1,0,unknown,no,3689125140,leahperez@example.com,"33419 Conley Court Suite 215
+New Lauraberg, OR 45298",False,capitalone.com/auto-loans,107
+Erin Ali,42,blue-collar,married,primary,no,984,yes,no,29,may,109,1,-1,0,unknown,no,2607226248,jonesdavid@example.org,"6027 Erin Orchard Suite 197
+Lake Jonathan, AZ 88645",False,capitalone.com/auto-loans,106
+Lisa Wong,42,unknown,single,unknown,no,1316,no,no,5,jun,285,1,-1,0,unknown,no,7842767223,stephanie15@example.com,"0043 Daniels Light Apt. 540
+Lake Saraborough, PA 91882",False,capitalone.com/auto-loans,106
+Kathleen Taylor,60,entrepreneur,divorced,secondary,no,1307,yes,no,27,may,328,11,-1,0,unknown,no,8129652099,briana21@example.com,"6431 Tate Extensions
+Port Carolynville, CO 41724",False,capitalone.com/auto-loans,106
+Kevin Weiss,29,technician,single,secondary,no,-166,yes,no,16,may,323,2,-1,0,unknown,no,4017368345,kellylowe@example.org,"67171 Paul Plains Suite 138
+Gonzaleztown, LA 71638",False,capitalone.com/auto-loans,105
+Ronald Wong,37,management,single,secondary,no,34,yes,no,29,may,285,1,-1,0,unknown,no,7566443781,velezsharon@example.org,"853 Ramirez Parkway
+Zacharyhaven, SC 80256",False,capitalone.com/auto-loans,105
+Victoria Lee,32,blue-collar,married,secondary,no,517,yes,no,5,may,528,1,-1,0,unknown,no,2897197007,alvin38@example.net,"Unit 9599 Box 0246
+DPO AE 71101",False,capitalone.com/auto-loans,105
+Brandon Long,31,blue-collar,divorced,primary,no,158,yes,no,28,may,157,1,-1,0,unknown,no,9769809137,patricia45@example.com,"6001 Rogers Knoll Apt. 326
+West Megan, WY 28134",False,capitalone.com/auto-loans,105
+Mitchell Day,41,blue-collar,married,unknown,no,225,yes,no,7,may,690,2,-1,0,unknown,no,8988792792,ashley20@example.net,"264 Wong Branch
+Lloydberg, CA 23874",False,capitalone.com/auto-loans,105
+Thomas Jenkins MD,31,admin.,married,secondary,no,8784,yes,no,21,may,63,2,-1,0,unknown,no,2006645675,ashleyrivers@example.org,"30971 Everett Shoal Apt. 441
+Michaelhaven, RI 86034",False,capitalone.com/auto-loans,104
+Katelyn Green,53,management,married,tertiary,no,115,yes,no,6,may,336,3,-1,0,unknown,no,5823486108,williamperry@example.net,"90479 Velasquez Via
+Maxwellbury, NH 50480",False,capitalone.com/auto-loans,104
+Anthony Davis,41,admin.,single,secondary,no,400,yes,no,4,jun,99,6,-1,0,unknown,no,8735293619,jonathan98@example.org,"317 Adams Camp Apt. 886
+West Ronnie, ND 74192",False,capitalone.com/auto-loans,104
+Michael Prince,31,blue-collar,married,secondary,no,213,yes,no,20,may,74,2,-1,0,unknown,no,8037667784,tara39@example.net,"456 Martin Spur Suite 427
+Garciahaven, MS 50472",False,capitalone.com/auto-loans,103
+Vanessa Garcia,51,blue-collar,married,unknown,no,37,yes,no,7,may,256,6,-1,0,unknown,no,9652236760,fellis@example.org,"6948 Valdez Corner Apt. 025
+Simmonsview, KY 83832",False,capitalone.com/auto-loans,103
+Stephanie Lang,41,management,married,tertiary,no,176,yes,yes,5,may,42,1,-1,0,unknown,no,4883557636,ecrawford@example.net,"46959 Montgomery Heights
+North Daniel, NY 04325",False,capitalone.com/auto-loans,103
+Donald Peterson,35,blue-collar,married,primary,no,453,yes,no,21,may,312,2,-1,0,unknown,no,7095078547,johnsonrobert@example.net,"5733 Tyler Summit
+Gardnershire, NC 82535",False,capitalone.com/auto-loans,103
+Joshua Davis,39,management,married,secondary,no,1034,yes,no,30,may,306,1,-1,0,unknown,no,9382177709,rodney57@example.net,"098 Nolan Land Apt. 299
+West Amandashire, UT 37242",False,capitalone.com/auto-loans,103
+Jeffrey Rogers,29,management,married,tertiary,no,1,yes,yes,16,may,49,1,-1,0,unknown,no,3787356962,stacyjohnson@example.net,"067 Heather Motorway
+Cindyfort, WA 30310",False,capitalone.com/auto-loans,103
+Mary Thompson,51,management,married,tertiary,no,307,yes,no,30,may,206,2,-1,0,unknown,no,3736030135,nicholas95@example.org,"4753 Mccarthy Dale
+Johnfort, SC 29435",False,capitalone.com/auto-loans,103
+Brittany Harrison,48,technician,married,secondary,no,219,yes,yes,29,may,154,4,-1,0,unknown,no,6336588550,matthew57@example.net,"651 John Ridge
+Mayofurt, MN 34638",False,capitalone.com/auto-loans,102
+Mrs. Christine White,31,blue-collar,single,primary,no,216,yes,no,21,may,565,1,-1,0,unknown,yes,7058322386,qflynn@example.com,"9110 Summers Landing
+Howardview, GA 35207",False,capitalone.com/auto-loans,102
+Clifford Riley,53,entrepreneur,single,secondary,no,62,yes,no,30,may,1044,5,-1,0,unknown,yes,5637865329,robert41@example.net,"84812 Jared Route Apt. 978
+West John, VI 67398",False,capitalone.com/auto-loans,102
+Scott Chung,34,self-employed,married,secondary,no,-370,yes,no,21,may,748,1,-1,0,unknown,no,4868036406,ewhite@example.com,"03805 Robert Stravenue
+Youngton, LA 09715",False,capitalone.com/auto-loans,102
+John Moody,38,management,single,tertiary,no,6836,yes,no,29,may,374,4,-1,0,unknown,no,8465635258,hannahramirez@example.net,"53353 Jeremiah Center
+Cochranton, MA 32340",False,capitalone.com/auto-loans,102
+Madison Best,48,entrepreneur,divorced,tertiary,no,275,no,yes,5,jun,34,1,-1,0,unknown,no,6426181947,brianagutierrez@example.com,"846 Angela Coves Apt. 058
+Melissaview, VA 19141",False,capitalone.com/auto-loans,101
+Kevin Rich,45,blue-collar,married,primary,no,180,yes,yes,29,may,150,1,-1,0,unknown,no,7329921887,jeffrey34@example.org,"430 Hansen Rapid
+Ochoaview, PW 60008",False,capitalone.com/auto-loans,101
+Melissa Scott,57,technician,married,unknown,no,1617,yes,no,7,may,96,2,-1,0,unknown,no,4174515992,james17@example.org,"USNV Edwards
+FPO AA 47863",False,capitalone.com/auto-loans,101
+Gregory Taylor,52,blue-collar,married,primary,no,2144,yes,no,30,may,60,1,-1,0,unknown,no,7186065640,paynemark@example.net,"PSC 7032, Box 5099
+APO AA 76875",False,capitalone.com/auto-loans,101
+Nichole Williams,31,technician,married,tertiary,no,15,no,no,2,jun,389,1,-1,0,unknown,no,3904917841,buckdana@example.org,"637 Thompson Ridge
+Port Samuel, UT 84678",False,capitalone.com/auto-loans,101
+Kyle Jones,55,technician,married,secondary,no,726,yes,no,16,may,271,1,-1,0,unknown,no,3655427362,rebeccacastro@example.org,"729 Nelson Keys
+Port Meganberg, MD 08261",False,capitalone.com/auto-loans,100
+Meredith Ruiz,30,management,married,tertiary,no,302,yes,yes,23,may,302,1,-1,0,unknown,no,8786330652,newmanbrittany@example.org,"81949 Sara Lights Suite 895
+South Haroldfort, KS 63590",False,capitalone.com/auto-loans,100
+Jesus Berry,24,blue-collar,single,secondary,no,0,yes,no,19,may,202,1,-1,0,unknown,no,3976481297,cfoster@example.org,"8162 Baker Vista Suite 777
+Madisonbury, VT 05995",False,capitalone.com/auto-loans,100
+Brandon Jackson,28,technician,single,secondary,no,216,yes,no,13,may,66,1,-1,0,unknown,no,4874766749,mrodriguez@example.com,"630 Nelson Drive
+Griffinfurt, ND 94224",False,capitalone.com/auto-loans,100
+Daniel Mcconnell,39,technician,married,secondary,no,1965,yes,no,2,jun,65,1,-1,0,unknown,no,9114826191,candacepatrick@example.org,"451 Li Green Apt. 559
+East Jasonmouth, WY 97878",False,capitalone.com/auto-loans,100
+Jennifer Olson,56,blue-collar,divorced,primary,no,8,yes,no,5,may,157,2,-1,0,unknown,no,5168214901,vwhite@example.com,"9716 James Stravenue Apt. 170
+Kylemouth, NH 37124",False,capitalone.com/auto-loans,99
+Michelle Burke,49,admin.,married,secondary,yes,15,no,no,12,may,290,5,-1,0,unknown,no,7687869303,leah67@example.net,"599 Jeffrey Well
+Lake Monica, AZ 75421",False,capitalone.com/auto-loans,99
+Austin Hart,45,blue-collar,divorced,secondary,no,0,no,no,6,jun,422,5,-1,0,unknown,no,6556165069,alicialeach@example.net,"Unit 6522 Box 7673
+DPO AA 98862",False,capitalone.com/auto-loans,99
+Sheri Schneider,57,unemployed,married,primary,no,0,no,no,9,jun,540,1,-1,0,unknown,no,7639121268,owood@example.org,"PSC 9556, Box 1144
+APO AP 70062",False,capitalone.com/auto-loans,99
+Krista Marquez,58,retired,married,secondary,no,255,no,no,28,may,362,3,-1,0,unknown,no,7434439036,anthonypatterson@example.org,"76381 Mathis Keys Apt. 602
+Knightville, MA 05164",False,capitalone.com/auto-loans,99
+Jeffrey Lewis,39,entrepreneur,married,tertiary,no,2644,yes,no,20,may,253,1,-1,0,unknown,no,2612483041,browndouglas@example.net,"42502 Scott Lake
+Youngchester, KY 08503",False,capitalone.com/auto-loans,99
+Joshua Molina,35,management,married,tertiary,no,867,yes,no,2,jun,230,3,-1,0,unknown,yes,2228251298,kathy79@example.com,"07017 Smith Dam Apt. 358
+Port Johnshire, MI 20437",False,capitalone.com/auto-loans,99
+Bryan Herrera,48,blue-collar,divorced,primary,no,24,yes,no,14,may,832,1,-1,0,unknown,yes,4064842766,teresabuck@example.net,"684 Sanchez Mission
+South Thomasbury, MP 35387",False,capitalone.com/auto-loans,98
+Judy Scott,45,management,single,tertiary,no,0,yes,no,15,may,197,4,-1,0,unknown,no,9408348199,zkelly@example.net,"400 Foster Manor
+South Mary, MI 16286",False,capitalone.com/auto-loans,98
+Jean Stephens,52,management,married,secondary,no,218,yes,no,2,jun,490,12,-1,0,unknown,no,5893311505,cannonamy@example.net,"3037 Brandon Plains Suite 028
+Richardsonport, UT 34101",False,capitalone.com/auto-loans,98
+Steven Espinoza,43,services,married,secondary,no,978,yes,yes,26,may,82,2,-1,0,unknown,no,9564487097,collinsrhonda@example.org,"4581 Jones Parkways Suite 283
+East Kimberlyshire, CA 71815",False,capitalone.com/auto-loans,98
+Lisa Rose,38,technician,divorced,secondary,no,-478,yes,no,28,may,154,1,-1,0,unknown,no,7796200047,aliciafreeman@example.com,"27273 Kimberly Harbor Suite 226
+Brendafort, ND 64115",False,capitalone.com/auto-loans,98
+Michelle Moore,60,retired,married,secondary,no,1420,yes,yes,6,jun,39,4,-1,0,unknown,no,6914363122,kimberly09@example.org,"4479 Mary Trail
+East Thomas, KY 67456",False,capitalone.com/auto-loans,97
+Mr. Mark Smith,37,technician,single,secondary,no,17,yes,no,6,may,164,1,-1,0,unknown,no,9122623469,ybrown@example.com,"0839 Moore Mountains Suite 042
+East Leahhaven, NM 84652",False,capitalone.com/auto-loans,97
+Dennis Williams,38,blue-collar,single,secondary,no,5891,yes,no,27,may,160,3,-1,0,unknown,no,7742188230,robertsphillip@example.com,"7812 Meadows Tunnel
+Kevinbury, KY 81805",False,capitalone.com/auto-loans,97
+Amanda West,38,technician,married,secondary,no,0,no,no,7,may,55,1,-1,0,unknown,no,3634774018,earnold@example.com,"1577 Alexis Rapids
+Ryanville, VI 80805",False,capitalone.com/auto-loans,97
+Judy Morales,31,services,married,secondary,no,564,yes,no,7,may,223,3,-1,0,unknown,no,5195916916,josephdustin@example.com,"58126 Smith Center Apt. 500
+Masonside, ME 98493",False,capitalone.com/auto-loans,97
+Sherry Sampson,31,services,single,secondary,no,-779,yes,no,28,may,198,2,-1,0,unknown,no,4685020133,cassandra23@example.net,"USNS Walsh
+FPO AP 61331",False,capitalone.com/auto-loans,97
+Gary Scott,37,entrepreneur,married,unknown,no,1134,yes,no,9,jun,142,3,-1,0,unknown,no,4936578222,finleydavid@example.net,"4333 Christopher Mountain Apt. 103
+Lake Angela, IA 24079",False,capitalone.com/auto-loans,97
+Kerri Bailey,41,self-employed,married,secondary,no,713,yes,no,19,may,78,1,-1,0,unknown,no,7027390027,jeffersonvicki@example.org,"31589 Lisa Ridges
+Port Markmouth, MP 27017",False,capitalone.com/auto-loans,97
+Benjamin Leach,49,services,divorced,secondary,no,315,yes,no,9,may,117,2,-1,0,unknown,no,3887253508,matthew10@example.org,"7842 Dwayne Via
+Lake Thomas, CO 64970",False,capitalone.com/auto-loans,97
+Annette Higgins,53,blue-collar,married,secondary,no,1570,yes,no,13,may,29,1,-1,0,unknown,no,7105236530,opalmer@example.org,"920 Katrina Hollow Suite 795
+Port Tylerview, TX 24561",False,capitalone.com/auto-loans,97
+Anthony Leonard,50,self-employed,divorced,tertiary,no,59,yes,no,28,may,67,2,-1,0,unknown,no,4438157200,ronnie72@example.com,"8624 Edwards Hills
+Colebury, TN 82470",False,capitalone.com/auto-loans,96
+Jose Jackson,38,admin.,married,secondary,no,-650,no,no,16,may,317,1,-1,0,unknown,no,8336729098,douglas87@example.net,"1906 Evans Plaza
+Elizabethfurt, MH 26447",False,capitalone.com/auto-loans,96
+William Montgomery,37,technician,single,secondary,no,6714,yes,no,23,may,90,1,-1,0,unknown,no,6114096185,pamela48@example.org,"410 Hoffman Lake
+South Michaelmouth, AS 62228",False,capitalone.com/auto-loans,96
+Gina Thomas,55,technician,married,secondary,no,2313,yes,no,9,may,551,2,-1,0,unknown,no,4703453768,cynthiagraham@example.com,"707 Cristian Forges
+Nguyenport, AZ 21990",False,capitalone.com/auto-loans,96
+Jennifer Martin,32,services,married,secondary,no,3756,yes,no,4,jun,85,3,-1,0,unknown,no,5234268901,karen40@example.org,"968 Cook Curve
+New Kevinchester, NY 21095",False,capitalone.com/auto-loans,96
+Aimee Baldwin,36,management,single,tertiary,no,0,yes,no,3,jun,174,1,-1,0,unknown,no,2066059052,svillarreal@example.org,"817 Katherine Spring Apt. 537
+Lake Karen, KY 17726",False,capitalone.com/auto-loans,96
+Zachary Golden,26,technician,single,secondary,no,174,yes,no,30,may,67,2,-1,0,unknown,no,5863451165,christina74@example.org,"592 Jennifer Track Apt. 739
+North Larry, DC 96478",False,capitalone.com/auto-loans,95
+Christopher Taylor,47,technician,married,secondary,no,19,yes,no,6,may,105,2,-1,0,unknown,no,6306587459,clarkjulie@example.org,"658 Williams Manor
+North Charles, FM 38811",False,capitalone.com/auto-loans,95
+Anna Wong,42,management,married,unknown,no,342,yes,no,2,jun,156,5,-1,0,unknown,no,2192085971,nlane@example.net,"63999 Moore Village
+Port Carla, GU 78519",False,capitalone.com/auto-loans,95
+Laura Duke,48,admin.,married,secondary,no,1099,no,yes,5,jun,340,1,-1,0,unknown,no,6689310874,stephanieconner@example.net,"82888 Bush Skyway
+New Pamelamouth, WI 70076",False,capitalone.com/auto-loans,95
+Katelyn Cooper,44,technician,married,secondary,no,13761,yes,no,29,may,65,1,-1,0,unknown,no,7056068726,colleenpatterson@example.org,"32916 Ward Points
+Port Natalie, MH 97844",False,capitalone.com/auto-loans,95
+Sergio Nguyen,56,admin.,divorced,primary,no,207,yes,no,3,jun,88,4,-1,0,unknown,no,9105952753,bethanybailey@example.net,"6757 Hernandez Fall Apt. 917
+West Anthony, WA 31334",False,capitalone.com/auto-loans,95
+Mr. Manuel Murphy,30,management,married,tertiary,no,527,yes,yes,21,may,265,1,-1,0,unknown,no,2856548156,wburns@example.com,"28046 Lisa Vista Apt. 391
+Adamsville, LA 09825",False,capitalone.com/auto-loans,95
+Luis Walter,53,blue-collar,married,primary,no,-864,yes,no,9,may,322,5,-1,0,unknown,no,6973884712,rachelbenson@example.org,"USNV Taylor
+FPO AP 26462",False,capitalone.com/auto-loans,95
+Miranda Brown,42,blue-collar,married,secondary,no,205,yes,yes,29,may,313,2,-1,0,unknown,no,9506671406,vmatthews@example.net,"011 Christopher Mall Suite 932
+West Cody, OK 81902",False,capitalone.com/auto-loans,94
+Jesse Taylor,37,self-employed,married,primary,no,0,no,no,7,may,112,4,-1,0,unknown,no,9434960190,michaelwilliams@example.net,"64313 King Club
+Meganside, GA 50538",False,capitalone.com/auto-loans,94
+Maria Yu,47,management,married,tertiary,no,-1379,yes,no,27,may,114,3,-1,0,unknown,no,2323701558,mduncan@example.com,"28854 George Way Apt. 486
+West Allison, MN 15957",False,capitalone.com/auto-loans,94
+William Francis,26,blue-collar,married,secondary,yes,-82,yes,no,4,jun,23,2,-1,0,unknown,no,5997101568,cordovaangela@example.net,"491 Matthew Island
+New Joseph, MD 95413",False,capitalone.com/auto-loans,94
+Austin West,43,technician,single,secondary,no,593,yes,no,5,may,55,1,-1,0,unknown,no,5799368228,dpayne@example.com,"306 Edwards Place
+New Morgan, VI 14396",False,capitalone.com/auto-loans,94
+Sharon Garcia,36,blue-collar,married,primary,no,448,yes,no,5,may,286,1,-1,0,unknown,no,6755855898,toddklein@example.net,"911 Schmidt Courts
+West Frank, OH 69926",False,capitalone.com/auto-loans,93
+Allen Bridges,52,services,divorced,primary,no,111,yes,no,12,may,179,2,-1,0,unknown,no,2977911933,nthompson@example.com,"66387 Henry Vista
+Nancyshire, VA 66851",False,capitalone.com/auto-loans,93
+Brendan Cortez,34,services,married,secondary,yes,421,yes,no,20,may,247,3,-1,0,unknown,no,8404013342,wwolf@example.org,"254 Noble Circles Suite 019
+Port Vicki, VA 08345",False,capitalone.com/auto-loans,93
+Tracy Holland,39,blue-collar,married,primary,no,385,yes,no,16,may,225,4,-1,0,unknown,no,8312879797,jwilliams@example.org,"7375 Melissa Tunnel Apt. 828
+Jonesbury, OR 83079",False,capitalone.com/auto-loans,93
+Shelby Stafford,40,blue-collar,divorced,primary,no,548,yes,yes,30,may,324,1,-1,0,unknown,no,2636854489,kpeterson@example.net,"057 Rivera Stream Suite 115
+Port Larryhaven, AS 82375",False,capitalone.com/auto-loans,93
+Yolanda Francis,37,technician,single,secondary,no,670,yes,no,8,may,78,3,-1,0,unknown,no,2815141828,dylan74@example.com,"53884 Gardner Common
+Port Russellview, FL 02038",False,capitalone.com/auto-loans,93
+Olivia Crane,38,admin.,divorced,secondary,no,661,yes,no,30,may,160,1,-1,0,unknown,no,6957797476,tammymeyer@example.com,"2082 Garrett Oval Suite 072
+North Juan, TN 79558",False,capitalone.com/auto-loans,93
+Andrew Cruz,30,admin.,married,secondary,no,4,no,no,7,may,172,8,-1,0,unknown,no,4862897339,aprilsmith@example.org,"452 Robert Haven Apt. 158
+Martinezfort, WI 84556",False,capitalone.com/auto-loans,93
+David Olson,32,admin.,divorced,secondary,no,-417,no,no,30,may,25,5,-1,0,unknown,no,4892747854,lisa79@example.com,"777 Meyers Squares
+New Robert, MS 36052",False,capitalone.com/auto-loans,93
+Alan Spence,39,services,divorced,primary,no,471,yes,no,6,may,161,2,-1,0,unknown,no,8592051038,williamsjennifer@example.com,"79155 Lopez Greens
+Lake Dana, MD 53636",False,capitalone.com/auto-loans,92
+Joe Jones,33,blue-collar,married,primary,no,3868,yes,no,2,jun,445,1,-1,0,unknown,no,2365175237,justin36@example.com,"709 Philip Glens
+Fergusonhaven, SC 47621",False,capitalone.com/auto-loans,92
+Julie Robertson,45,technician,divorced,secondary,no,159,yes,no,26,may,66,3,-1,0,unknown,no,7463310593,smcclain@example.org,"743 Small Forges Apt. 667
+New Jessestad, ME 53711",False,capitalone.com/auto-loans,92
+Mr. Manuel Miller,42,blue-collar,married,primary,no,223,yes,no,7,may,41,3,-1,0,unknown,no,6398544732,paulawilson@example.com,"PSC 8028, Box 1289
+APO AP 34635",False,capitalone.com/auto-loans,92
+Cynthia Riddle,46,services,married,secondary,no,216,yes,no,6,may,524,2,-1,0,unknown,no,9356540449,monica20@example.org,"PSC 4016, Box 3686
+APO AA 54297",False,capitalone.com/auto-loans,92
+Kristin Lopez,21,student,single,secondary,no,99,yes,no,13,may,49,1,-1,0,unknown,no,8153617972,bradley93@example.net,"PSC 7697, Box 6035
+APO AP 99302",False,capitalone.com/auto-loans,92
+Steven Jackson,30,management,single,tertiary,no,3625,yes,no,23,may,469,2,-1,0,unknown,no,2553605789,kaitlinhudson@example.org,"0257 Stephens Divide
+Calebtown, MS 67131",False,capitalone.com/auto-loans,92
+Allen Green,45,blue-collar,married,primary,no,333,yes,no,13,may,160,3,-1,0,unknown,no,7799061034,donald83@example.net,"3319 Kristen Ford
+Lake Alexis, IL 73711",False,capitalone.com/auto-loans,92
+Lisa Sherman,33,technician,single,secondary,no,513,yes,no,9,may,53,4,-1,0,unknown,no,5029163317,epacheco@example.org,"50805 Joseph Route
+Wallton, IA 74306",False,capitalone.com/auto-loans,92
+Alan Russell,44,services,divorced,secondary,no,-389,yes,yes,5,jun,52,1,-1,0,unknown,no,3389460168,fmorris@example.net,"990 Brent Cliffs Apt. 603
+Port Leah, VT 09044",False,capitalone.com/auto-loans,92
+Bonnie Cunningham,50,blue-collar,married,primary,no,2212,yes,no,15,may,116,1,-1,0,unknown,no,6116880787,ojensen@example.net,"6854 Pena Manors Apt. 800
+Stevenborough, MD 58275",False,capitalone.com/auto-loans,91
+Christopher Webb,46,blue-collar,married,primary,no,0,yes,yes,8,may,390,3,-1,0,unknown,no,5369214771,tannererin@example.org,"53741 Thomas Mall
+West David, WI 11890",False,capitalone.com/auto-loans,91
+Richard Brandt,39,management,married,tertiary,no,1598,yes,yes,27,may,87,3,-1,0,unknown,no,6169135264,porterdonald@example.com,"2216 Brianna Street Suite 839
+New Shawnshire, ND 44094",False,capitalone.com/auto-loans,91
+Daniel Morgan,36,management,married,tertiary,no,1014,yes,no,4,jun,34,2,-1,0,unknown,no,6339055127,ztucker@example.org,"15655 Michael Crest Suite 435
+East Rhondaview, NC 83128",False,capitalone.com/auto-loans,91
+Brandy Simmons,30,management,single,tertiary,no,6,yes,no,23,may,274,2,-1,0,unknown,no,9843203952,mhansen@example.org,"47113 Knight Knolls
+Powellville, AS 07785",False,capitalone.com/auto-loans,91
+William Mcguire,48,blue-collar,married,secondary,no,705,no,no,13,may,108,2,-1,0,unknown,no,3268970365,heathervaldez@example.net,"9450 Miller Ports Suite 860
+Rodriguezmouth, OH 31296",False,capitalone.com/auto-loans,91
+Robert Patterson,39,blue-collar,single,secondary,no,82,yes,no,8,may,147,5,-1,0,unknown,no,7929280033,sanchezkathleen@example.net,"005 Brian Camp Suite 140
+South Mitchellmouth, FL 29846",False,capitalone.com/auto-loans,91
+Christopher Perez,37,blue-collar,married,primary,no,178,yes,yes,9,jun,72,1,-1,0,unknown,no,7904733773,angela73@example.net,"PSC 6387, Box 2849
+APO AA 14799",False,capitalone.com/auto-loans,90
+Bryan Hensley,39,blue-collar,divorced,secondary,no,160,yes,no,30,may,151,2,-1,0,unknown,no,4757260106,peter07@example.org,"148 Arthur Underpass Suite 889
+Martinview, NE 34911",False,capitalone.com/auto-loans,90
+Jasmine Oliver,33,blue-collar,married,primary,yes,-744,yes,no,8,may,206,1,-1,0,unknown,no,4743103133,shirley69@example.com,"319 Martinez Meadow
+Smithmouth, AZ 11988",False,capitalone.com/auto-loans,90
+Kimberly Atkinson,36,management,married,tertiary,no,-825,no,no,27,may,95,1,-1,0,unknown,no,9716603407,bjohnson@example.com,"874 Perez Rue
+West Elizabethchester, TN 28284",False,capitalone.com/auto-loans,90
+Jose Lucas MD,42,blue-collar,married,secondary,no,-355,yes,yes,5,jun,939,6,-1,0,unknown,no,5545841232,faulknerdonna@example.org,"2314 Landry Overpass
+Christopherfurt, LA 32004",False,capitalone.com/auto-loans,90
+Debbie Valdez,27,technician,married,secondary,no,-302,yes,no,12,may,66,3,-1,0,unknown,no,7182849755,pcole@example.com,"520 Robinson Fort Suite 588
+Port Brianfurt, NE 68652",False,capitalone.com/auto-loans,90
+Kimberly Lambert,28,management,married,tertiary,no,102,yes,no,26,may,314,2,-1,0,unknown,no,7096883474,alexandra35@example.org,"235 Wang Ville Apt. 828
+Rojasshire, IN 35332",False,capitalone.com/auto-loans,89
+Paul Boyer,33,technician,single,secondary,no,1769,yes,no,20,may,181,1,-1,0,unknown,no,4166173502,charlesmichael@example.org,"9699 Brady Prairie Suite 719
+New Jameston, MS 96820",False,capitalone.com/auto-loans,89
+Denise Anderson,31,blue-collar,married,primary,no,2198,no,no,2,jun,532,2,-1,0,unknown,no,3877498286,owentroy@example.org,"1951 Lewis Field Apt. 525
+South Gregory, WI 70571",False,capitalone.com/auto-loans,89
+Linda Chambers,40,admin.,single,secondary,no,118,yes,no,8,may,383,3,-1,0,unknown,no,7354357258,johnathanjackson@example.org,"92575 Shannon Passage
+South Scott, MD 57591",False,capitalone.com/auto-loans,89
+Connor Price,39,blue-collar,married,secondary,no,804,yes,no,21,may,166,1,-1,0,unknown,no,8543426564,robert50@example.org,"052 Allison Gardens
+Lake Susan, GA 49250",False,capitalone.com/auto-loans,88
+Melody Hunt,47,blue-collar,married,secondary,no,1794,yes,yes,30,may,515,2,-1,0,unknown,no,5878557333,dgrant@example.com,"8219 May Throughway
+New Zacharyfort, HI 92120",False,capitalone.com/auto-loans,88
+Jason Rosales,36,unemployed,married,secondary,no,-872,yes,yes,21,may,153,1,-1,0,unknown,no,8705514575,ucole@example.com,"PSC 5790, Box 6343
+APO AP 68684",False,capitalone.com/auto-loans,88
+Belinda Carter,44,unemployed,married,secondary,no,728,yes,no,14,may,21,11,-1,0,unknown,no,8754414231,mariafernandez@example.com,"8137 Watts Stravenue
+East Kimberly, NV 27720",False,capitalone.com/auto-loans,88
+Jose Figueroa,58,retired,married,primary,no,269,yes,no,16,may,38,2,-1,0,unknown,no,9864837622,zmoon@example.net,"881 Velasquez Ports
+Colemanland, MP 36952",False,capitalone.com/auto-loans,88
+Carrie Gutierrez,37,technician,married,secondary,no,1,yes,no,6,may,608,1,-1,0,unknown,yes,5269067131,loweryheather@example.net,"367 Eileen Spring
+North Rita, WA 89618",False,capitalone.com/auto-loans,88
+Stefanie Cannon MD,42,unemployed,married,primary,no,259,yes,no,15,may,155,6,-1,0,unknown,no,8924990050,janderson@example.com,"32545 Lopez Crescent Apt. 376
+Hammondchester, NE 20919",False,capitalone.com/auto-loans,88
+Christy Howe,36,management,married,tertiary,no,1852,no,no,8,may,362,1,-1,0,unknown,no,6044463186,zjones@example.net,"84298 Samantha Burgs Suite 028
+North Breannamouth, MA 91564",False,capitalone.com/auto-loans,88
+Sandra Thomas,33,services,married,tertiary,no,546,yes,yes,9,may,253,1,-1,0,unknown,no,3485675359,pwagner@example.net,"234 Thomas Field Suite 635
+East Stephaniechester, RI 85508",False,capitalone.com/auto-loans,88
+Jeffery Lopez,59,management,single,secondary,no,671,yes,yes,15,may,157,5,-1,0,unknown,no,2016599237,brownmark@example.net,"42512 King Tunnel Apt. 185
+New Kristen, FM 19273",False,capitalone.com/auto-loans,87
+Maria Bryant,52,technician,married,secondary,no,598,no,no,14,may,266,2,-1,0,unknown,no,4852825692,johnsonmichael@example.org,"PSC 6284, Box 4083
+APO AA 66904",False,capitalone.com/auto-loans,87
+Laura Garcia,29,student,single,secondary,no,1093,yes,no,29,may,368,2,-1,0,unknown,no,9656618723,savagescott@example.com,"6386 Joanna Prairie
+Joannechester, MI 85101",False,capitalone.com/auto-loans,87
+Rebecca Coffey,27,technician,single,secondary,no,648,yes,no,28,may,198,3,-1,0,unknown,no,5854711840,harmonrichard@example.org,"862 James Gateway
+Davidstad, AR 53795",False,capitalone.com/auto-loans,87
+Joseph Benjamin Jr.,49,technician,married,primary,no,230,yes,no,8,may,96,1,-1,0,unknown,no,5173565276,stephanie91@example.org,"567 Travis Islands Apt. 285
+East Ralphport, NV 13083",False,capitalone.com/auto-loans,87
+Tony Ortiz,31,self-employed,single,tertiary,no,14692,yes,no,23,may,601,1,-1,0,unknown,no,2384940987,banksmaria@example.org,"2969 Mcdaniel Flats
+Tanyahaven, WV 39253",False,capitalone.com/auto-loans,87
+Shelia Turner,40,blue-collar,single,secondary,no,1101,yes,no,16,may,214,1,-1,0,unknown,no,4095312644,paul91@example.org,"688 Ronald Field
+Port Alexander, MS 17817",False,capitalone.com/auto-loans,87
+Christopher Harvey,58,retired,married,primary,no,235,yes,no,5,may,167,1,-1,0,unknown,no,9193292475,scott15@example.com,"4874 Mary Grove
+Lake Joshua, AR 19548",False,capitalone.com/auto-loans,87
+Mariah Jones,50,blue-collar,married,secondary,no,160,yes,no,13,may,334,1,-1,0,unknown,no,2158014794,leslieflores@example.org,"1325 Samuel Wall Apt. 306
+South Scott, VI 41031",False,capitalone.com/auto-loans,87
+Patrick Rogers,45,technician,single,secondary,no,1044,yes,no,3,jun,239,8,-1,0,unknown,no,6956490017,xsmith@example.org,"495 Mary Extensions Suite 635
+Lake Davidstad, NM 28136",False,capitalone.com/auto-loans,86
+Dawn Williams,41,services,married,secondary,no,1027,yes,no,2,jun,53,2,-1,0,unknown,no,3915092616,careycarolyn@example.org,"123 Moody Pass
+Chasetown, WI 68508",False,capitalone.com/auto-loans,86
+Teresa Jones,54,retired,married,secondary,no,-152,yes,yes,26,may,14,11,-1,0,unknown,no,7662303427,ashleyjohnson@example.com,"676 Paul Port
+North Rogerland, AK 23630",False,capitalone.com/auto-loans,86
+Teresa Gill,55,admin.,married,secondary,no,9039,yes,no,15,may,187,6,-1,0,unknown,no,9464284205,rebeccamcneil@example.org,"41955 Mary Mission Suite 101
+Caseyton, OR 86677",False,capitalone.com/auto-loans,85
+Regina King,31,management,married,tertiary,no,334,yes,no,13,may,449,1,-1,0,unknown,no,9513441161,brenda88@example.net,"95989 Nicholas Falls Apt. 950
+Troyside, SD 34729",False,capitalone.com/auto-loans,85
+Pamela Campbell,38,blue-collar,single,secondary,no,-1,yes,no,7,may,72,1,-1,0,unknown,no,9045774419,michael39@example.com,"784 Amy Dale Suite 107
+Ginahaven, MH 60399",False,capitalone.com/auto-loans,85
+Susan Williams,38,technician,married,secondary,no,508,yes,no,27,may,565,2,-1,0,unknown,no,4326789375,andersonbrandy@example.com,"8724 Stacy Wells
+Lake Brad, MO 75536",False,capitalone.com/auto-loans,85
+Grace Contreras,37,blue-collar,married,secondary,no,190,yes,no,9,may,83,2,-1,0,unknown,no,7882393526,danielle00@example.net,"766 David Motorway Suite 244
+North Stephenton, WV 06407",False,capitalone.com/auto-loans,85
+Stephen Freeman,21,blue-collar,single,secondary,no,-273,yes,yes,13,may,340,1,-1,0,unknown,no,4693858434,jroberts@example.net,"6433 Brown Junction
+Robertville, GU 81896",False,capitalone.com/auto-loans,84
+Jason Hanna,37,unemployed,single,secondary,no,1354,yes,no,4,jun,207,4,-1,0,unknown,no,2284757254,vdyer@example.net,"4241 Carlos Streets Suite 420
+East Randalltown, SC 68441",False,capitalone.com/auto-loans,84
+Sue Dunlap,28,technician,single,tertiary,no,-214,yes,no,12,may,140,3,-1,0,unknown,no,4403489710,rachel70@example.org,"Unit 8278 Box 6420
+DPO AP 97491",False,capitalone.com/auto-loans,84
+Jason Rivera,28,blue-collar,married,secondary,no,0,yes,no,26,may,245,3,-1,0,unknown,no,4064278697,ilogan@example.com,"8455 Carolyn Ridges
+Lake Michaelmouth, OR 94029",False,capitalone.com/auto-loans,84
+Nicole Douglas,50,housemaid,married,secondary,no,34,yes,no,5,jun,163,1,-1,0,unknown,no,3427018363,fitzgeraldsharon@example.org,"8474 Moreno Union Apt. 841
+Elliottstad, OK 69044",False,capitalone.com/auto-loans,84
+Diana Gonzales,34,blue-collar,married,secondary,no,457,yes,no,9,may,266,1,-1,0,unknown,no,5452896316,haley49@example.com,"0537 Collins Path Suite 550
+Sarahberg, CA 49874",False,capitalone.com/auto-loans,84
+Sarah Fitzgerald,32,admin.,divorced,secondary,no,-19,yes,no,30,may,97,2,-1,0,unknown,no,7404777545,wjames@example.com,"3514 White Meadows
+Stephenshire, WV 85903",False,capitalone.com/auto-loans,84
+Stephanie Lewis,30,services,married,tertiary,no,1380,yes,no,21,may,294,2,-1,0,unknown,no,9712973522,catherine05@example.net,"26921 Macdonald Trail Apt. 550
+South Jill, KY 74449",False,capitalone.com/auto-loans,84
+Jason Hart,49,admin.,married,secondary,no,1530,yes,no,15,may,173,1,-1,0,unknown,no,8699696182,hwarren@example.com,"3335 Carter Causeway Apt. 123
+Matthewside, IN 04483",False,capitalone.com/auto-loans,84
+Christopher Christensen,27,self-employed,married,secondary,no,-220,yes,no,26,may,138,2,-1,0,unknown,no,5825817283,wbell@example.net,"1093 Brady Orchard
+North Tanya, AZ 23354",False,capitalone.com/auto-loans,84
+Karen Quinn,48,blue-collar,married,primary,no,281,yes,no,19,may,100,3,-1,0,unknown,no,7057201196,hhowe@example.org,"1931 Fields Junction Suite 323
+North Christopher, TX 74272",False,capitalone.com/auto-loans,83
+Norman Drake,58,retired,married,secondary,no,1604,yes,no,2,jun,358,3,-1,0,unknown,no,7558638751,ryan91@example.com,"00495 Wendy Wells
+West Karenbury, DC 87549",False,capitalone.com/auto-loans,83
+Scott Smith,57,blue-collar,married,primary,no,831,no,no,9,jun,166,3,-1,0,unknown,no,9044283947,bclark@example.net,"712 Wang Manor
+Arnoldchester, ND 66365",False,capitalone.com/auto-loans,83
+Robert Mason,40,blue-collar,married,primary,no,919,yes,no,3,jun,327,2,-1,0,unknown,no,9477033566,kgould@example.com,"91785 Brandon Prairie
+Lake Joshuaburgh, MT 37793",False,capitalone.com/auto-loans,83
+Edward Santiago,58,entrepreneur,married,tertiary,no,7198,yes,no,21,may,44,5,-1,0,unknown,no,9724624462,theresa71@example.com,"91779 Stephanie Crest
+Port Joel, PW 75309",False,capitalone.com/auto-loans,83
+Tyler Russell,33,blue-collar,divorced,primary,no,-53,yes,no,26,may,369,1,-1,0,unknown,no,7882512721,kellymiller@example.net,"14481 Moreno Centers
+Christopherberg, UT 92149",False,capitalone.com/auto-loans,83
+Joel Arnold,26,housemaid,single,secondary,no,229,yes,no,30,may,60,16,-1,0,unknown,no,7008595010,owendonald@example.com,"096 Wilson Ridges
+North Meghanberg, VT 56483",False,capitalone.com/auto-loans,83
+Joseph Johnson,33,management,single,tertiary,no,2599,yes,no,23,may,328,3,-1,0,unknown,no,2673110300,megan49@example.org,"2573 Henry Creek Apt. 441
+Jamesborough, NC 70541",False,capitalone.com/auto-loans,83
+Nathan Nichols,30,technician,married,secondary,no,1168,yes,yes,21,may,361,1,-1,0,unknown,no,5645836338,heatherhood@example.org,"036 Rogers Drive Apt. 879
+Lake Paulshire, ME 97989",False,capitalone.com/auto-loans,83
+Benjamin James,38,blue-collar,married,secondary,no,0,yes,no,9,jun,254,1,-1,0,unknown,no,3232498766,elizabeth96@example.org,"343 Robert Fords Suite 579
+Millerfort, OR 47643",False,capitalone.com/auto-loans,83
+Lisa Young,55,blue-collar,married,secondary,no,471,yes,no,30,may,58,2,-1,0,unknown,no,7636458204,shawn30@example.org,"24380 David Crossing
+Port Tonya, NM 07611",False,capitalone.com/auto-loans,83
+Adam Friedman,26,services,single,tertiary,no,1624,yes,yes,28,may,438,1,-1,0,unknown,no,9126562161,jefferycollins@example.net,"7412 Stephanie Wall
+Danielfurt, VT 15897",False,capitalone.com/auto-loans,83
+April Bell,37,blue-collar,married,secondary,no,-4,yes,yes,29,may,381,1,-1,0,unknown,no,8666295586,colevictoria@example.net,"348 Townsend Extensions Apt. 497
+Hicksfurt, IN 68365",False,capitalone.com/auto-loans,83
+Garrett Arnold,29,blue-collar,married,secondary,no,2776,yes,no,27,may,233,1,-1,0,unknown,no,7098991758,wmiller@example.com,"87660 Allen Circles Suite 722
+East Natalie, TX 28863",False,capitalone.com/auto-loans,83
+Michael Williams,53,blue-collar,divorced,secondary,no,145,yes,no,8,may,193,1,-1,0,unknown,no,4576804020,courtney79@example.net,"7126 David Lights
+Patelfurt, MA 38157",False,capitalone.com/auto-loans,82
+Meghan Shaw,32,technician,single,secondary,no,287,yes,no,21,may,59,8,-1,0,unknown,no,4218106558,perrysarah@example.org,"654 Karen Meadow Suite 144
+New Julieview, VT 30682",False,capitalone.com/auto-loans,82
+Jonathan Jones,49,blue-collar,married,secondary,no,611,yes,yes,14,may,179,1,-1,0,unknown,no,3712802259,robert09@example.com,"Unit 4433 Box 5635
+DPO AA 88382",False,capitalone.com/auto-loans,82
+Ronald Hughes,59,blue-collar,married,primary,no,748,no,no,29,may,184,1,-1,0,unknown,no,7297550691,clopez@example.org,"USCGC Browning
+FPO AE 62631",False,capitalone.com/auto-loans,81
+Carl Mcdonald,35,management,single,tertiary,no,1045,yes,no,21,may,61,1,-1,0,unknown,no,6515319202,bradleydixon@example.org,"58625 Williams Lakes
+Kyleland, CO 75651",False,capitalone.com/auto-loans,81
+Gregory Durham,39,blue-collar,married,secondary,yes,-931,yes,no,28,may,92,5,-1,0,unknown,no,6037731821,brianjones@example.org,"0750 Kline Port
+Andrewburgh, AR 25161",False,capitalone.com/auto-loans,81
+Alexander Bryant,60,management,married,primary,no,703,yes,no,14,may,378,1,-1,0,unknown,no,6364312108,vargasanthony@example.net,"824 Hernandez Village Apt. 501
+Hooverchester, VT 27974",False,capitalone.com/auto-loans,81
+Shannon Johnson,35,admin.,married,primary,no,136,yes,no,7,may,283,1,-1,0,unknown,no,5962276739,maciasamanda@example.net,"3379 Price Causeway Apt. 954
+Heathstad, OH 39555",False,capitalone.com/auto-loans,81
+Kimberly Ramsey,35,management,single,tertiary,no,561,yes,no,12,may,405,3,-1,0,unknown,no,2057401445,zluna@example.net,"USNV Hinton
+FPO AP 78293",False,capitalone.com/auto-loans,81
+Vernon Cantrell,50,management,married,tertiary,no,0,yes,no,6,jun,243,7,-1,0,unknown,no,9097495917,ryan14@example.org,"147 John Estate Suite 214
+Charlesmouth, VT 72890",False,capitalone.com/auto-loans,81
+Stacey Harris,47,blue-collar,married,secondary,no,5306,yes,no,15,may,322,1,-1,0,unknown,no,7046488793,timothy40@example.net,"1760 Foster Mountains
+Chelseyfort, NE 77887",False,capitalone.com/auto-loans,81
+Amanda James,44,services,married,secondary,no,-75,yes,no,26,may,104,1,-1,0,unknown,no,3398750835,vterrell@example.net,"65872 Wallace Square
+Yvettemouth, IA 38300",False,capitalone.com/auto-loans,81
+Robert Duran,47,management,divorced,tertiary,no,17964,yes,no,3,jun,165,2,-1,0,unknown,no,9966399745,monique22@example.com,"0010 Leonard Gateway
+Christineville, PW 33319",False,capitalone.com/auto-loans,80
+Jeffrey Harrison,58,housemaid,married,primary,no,935,yes,no,6,jun,272,2,-1,0,unknown,no,8207719667,meyersmichael@example.com,"74060 Cory Rapids Apt. 705
+Angelamouth, NC 71589",False,capitalone.com/auto-loans,80
+Kyle Melton,56,blue-collar,married,primary,no,197,no,no,9,jun,258,2,-1,0,unknown,no,8224971968,aaroncastro@example.net,"938 Christian Row
+North Jason, VA 74918",False,capitalone.com/auto-loans,80
+Valerie Fox,32,unemployed,married,primary,no,324,yes,no,12,may,577,1,-1,0,unknown,no,8682862829,lbrown@example.org,"91437 Kathleen Place Suite 370
+Triciastad, HI 62728",False,capitalone.com/auto-loans,80
+James Fry,33,management,married,unknown,no,18347,yes,no,23,may,415,1,-1,0,unknown,no,3213301898,lisa81@example.org,"USCGC Blankenship
+FPO AE 59908",False,capitalone.com/auto-loans,80
+Tyrone Long,30,self-employed,single,secondary,no,4011,yes,no,20,may,62,1,-1,0,unknown,no,9452100320,ecoleman@example.net,"7140 Gary Club
+Port Jennifer, MT 45796",False,capitalone.com/auto-loans,80
+Mrs. Samantha Turner,28,technician,single,secondary,no,280,yes,no,14,may,142,3,-1,0,unknown,no,6552594146,lbarrera@example.org,"16200 Ramirez Lock
+Jordanmouth, RI 19038",False,capitalone.com/auto-loans,80
+Andrew Moore,36,blue-collar,married,secondary,no,0,no,no,5,jun,174,1,-1,0,unknown,no,4136893786,simpsonmorgan@example.com,"396 Greene Green
+Lake Benjamin, MT 24405",False,capitalone.com/auto-loans,79
+Eric Thompson,41,admin.,married,secondary,no,-111,yes,no,30,may,84,3,-1,0,unknown,no,3663683939,amyhorton@example.net,"343 Sue Union
+Jacksonmouth, DC 37255",False,capitalone.com/auto-loans,79
+Heather Beard,23,technician,single,secondary,no,158,yes,no,13,may,139,1,-1,0,unknown,no,4439485505,swatson@example.net,"USS Frederick
+FPO AA 48693",False,capitalone.com/auto-loans,79
+Heather Scott,59,technician,married,secondary,no,371,yes,no,12,may,832,3,-1,0,unknown,no,4202956095,chadjarvis@example.net,"746 Terry Wells
+Carrollfort, MO 21975",False,capitalone.com/auto-loans,79
+Juan Jones,35,technician,married,secondary,no,51,yes,no,14,may,824,2,-1,0,unknown,no,8267268234,stacyvelez@example.com,"4497 Michele Garden
+Harristown, AS 88445",False,capitalone.com/auto-loans,79
+Joshua Morgan,36,blue-collar,married,secondary,no,722,yes,no,13,may,816,3,-1,0,unknown,no,5745928296,linda54@example.org,"8441 Melinda Rapids
+New Jason, VT 85565",False,capitalone.com/auto-loans,79
+Joshua Johnson,60,blue-collar,divorced,primary,no,7601,yes,no,8,may,285,1,-1,0,unknown,no,3677317218,michaeloliver@example.com,"3284 Matthew Hill Apt. 574
+Michaelhaven, HI 65017",False,capitalone.com/auto-loans,79
+Suzanne Johnson,61,housemaid,married,unknown,no,0,no,no,5,jun,118,1,-1,0,unknown,no,9599556234,barajascory@example.org,"0834 Brittany Inlet
+North Josephberg, MS 91569",False,capitalone.com/auto-loans,79
+Paige Molina,32,blue-collar,married,primary,no,415,yes,no,2,jun,777,4,-1,0,unknown,yes,3758969077,kristanavarro@example.com,"080 Megan Mount Suite 561
+North Sarahborough, TX 73604",False,capitalone.com/auto-loans,79
+Tamara Page,36,blue-collar,married,secondary,no,688,yes,no,6,may,174,2,-1,0,unknown,no,8238319510,paulhunt@example.net,"8593 Perez Parkway
+Nicholsview, MT 07889",False,capitalone.com/auto-loans,78
+Nicole Bennett,38,self-employed,married,unknown,no,10855,no,no,5,jun,57,2,-1,0,unknown,no,8995616321,stephenbarnes@example.org,"13019 Miranda Court
+Jenniferstad, NJ 60247",False,capitalone.com/auto-loans,78
+Benjamin Robinson,23,services,single,secondary,no,496,yes,no,15,may,430,2,-1,0,unknown,no,3153090360,barrarthur@example.com,"4605 Megan Mountains
+Lake Melissa, NJ 85960",False,capitalone.com/auto-loans,78
+Eric Pugh,38,blue-collar,married,primary,no,2407,yes,no,19,may,218,1,-1,0,unknown,no,9464951820,kimberlyhood@example.com,"7334 Holmes Fort
+East Donna, AK 51692",False,capitalone.com/auto-loans,78
+Brian Woods,53,housemaid,single,tertiary,no,3275,no,no,6,jun,527,2,-1,0,unknown,no,8233026777,burnstonya@example.com,"0662 Joshua Groves
+New Cody, FL 08087",False,capitalone.com/auto-loans,78
+Anita Johnson,48,management,divorced,tertiary,no,-244,yes,no,5,may,253,1,-1,0,unknown,no,5006646096,romeroryan@example.org,"USS Ballard
+FPO AA 77215",False,capitalone.com/auto-loans,78
+Miranda Greene,33,blue-collar,single,secondary,no,231,yes,no,2,jun,466,1,-1,0,unknown,no,7048565371,ericksonheather@example.org,"PSC 1400, Box 8896
+APO AE 12045",False,capitalone.com/auto-loans,78
+William Strong,35,admin.,single,secondary,no,2452,yes,no,5,jun,91,2,-1,0,unknown,no,7702246470,laura69@example.org,"29192 Karen Ford
+Hernandezborough, WY 44410",False,capitalone.com/auto-loans,78
+Bryan Diaz,41,retired,divorced,primary,no,-233,yes,no,15,may,1156,2,-1,0,unknown,yes,3448660110,rmejia@example.com,"926 David Port
+Garrettview, MH 23002",False,capitalone.com/auto-loans,78
+Lynn Arias,49,blue-collar,married,unknown,no,403,yes,no,5,may,241,2,-1,0,unknown,no,2329352616,upaul@example.net,"567 Fry Field Suite 225
+North Georgestad, MA 43251",False,capitalone.com/auto-loans,78
+Kaitlyn Rivera,51,management,married,tertiary,no,1212,yes,no,13,may,184,1,-1,0,unknown,no,9576242804,adam70@example.com,"3855 Amanda Trace Suite 712
+East Stephanie, PR 01735",False,capitalone.com/auto-loans,78
+Kirsten Mcintyre,49,blue-collar,married,secondary,no,579,yes,no,28,may,396,1,-1,0,unknown,no,7696264065,richard79@example.com,"6809 Phillips Bridge Apt. 512
+New Jordanfurt, TN 64343",False,capitalone.com/auto-loans,78
+Phillip Atkinson DVM,38,technician,single,secondary,no,-143,yes,no,30,may,428,7,-1,0,unknown,no,9775220543,sarajackson@example.net,"494 Orozco Mountains Suite 486
+Smithhaven, MS 51941",False,capitalone.com/auto-loans,78
+Anna Reed,33,blue-collar,married,secondary,no,-53,yes,no,20,may,172,1,-1,0,unknown,no,2657198130,laurencole@example.net,"8907 Brandi Harbors Apt. 482
+Frankburgh, ID 94068",False,capitalone.com/auto-loans,77
+Joshua Garcia,27,services,married,secondary,no,-1202,yes,no,4,jun,749,2,-1,0,unknown,no,4247015049,melissahenderson@example.com,"003 Callahan Village Suite 056
+Kimberlyfurt, NJ 36874",False,capitalone.com/auto-loans,77
+Matthew Alvarez,55,technician,married,secondary,no,517,yes,yes,19,may,61,4,-1,0,unknown,no,2613437785,philip79@example.org,"9177 Beard Mountains Suite 096
+West Valerietown, LA 96841",False,capitalone.com/auto-loans,77
+Taylor Kennedy,39,entrepreneur,married,secondary,no,0,yes,no,15,may,171,10,-1,0,unknown,no,4597540339,nicholas39@example.net,"49090 Young Summit
+Bentonville, TN 46736",False,capitalone.com/auto-loans,77
+Debra Johnson,31,technician,single,secondary,no,1,yes,no,20,may,71,3,-1,0,unknown,no,7982352090,johnsonjulia@example.com,"430 Sheila Mountain
+East Joseph, FM 05334",False,capitalone.com/auto-loans,77
+Scott Young,53,blue-collar,divorced,primary,no,4222,no,no,9,jun,112,1,-1,0,unknown,no,9635047665,callahanmichael@example.org,"6233 Lawson Forges
+Greenefort, KS 46662",False,capitalone.com/auto-loans,77
+Jonathan Clark,31,management,married,tertiary,no,1260,no,yes,21,may,93,1,-1,0,unknown,no,2352236404,carolyngray@example.net,"593 Hines Plains Suite 778
+Lake Michaelview, GA 33674",False,capitalone.com/auto-loans,77
+Felicia Peterson,32,technician,married,secondary,no,90,yes,yes,6,may,57,2,-1,0,unknown,no,9306159991,vmartin@example.com,"3898 Rivera Stream Apt. 831
+Port Joshuastad, LA 11589",False,capitalone.com/auto-loans,77
+Molly Russell,46,blue-collar,married,secondary,no,1728,yes,no,26,may,50,2,-1,0,unknown,no,4606420434,carrierowe@example.org,"8564 Lauren Underpass Suite 304
+Williamsport, ID 26973",False,capitalone.com/auto-loans,77
+Larry Gilbert,37,blue-collar,married,primary,no,1455,yes,no,21,may,165,2,-1,0,unknown,no,6957021201,deanna39@example.net,"5857 Thomas Highway Apt. 325
+Jasonchester, DC 15952",False,capitalone.com/auto-loans,76
+Mindy Martinez,34,blue-collar,married,secondary,no,1831,yes,no,20,may,203,2,-1,0,unknown,no,9669074256,jkoch@example.net,"224 Liu Mission
+Wilsonview, PR 49011",False,capitalone.com/auto-loans,76
+John Cummings,34,management,single,tertiary,no,673,yes,yes,20,may,120,1,-1,0,unknown,no,9645265286,valdezrussell@example.com,"55200 Carter Vista
+Reginaville, NM 19804",False,capitalone.com/auto-loans,76
+Thomas Diaz,38,entrepreneur,married,secondary,no,3249,yes,no,2,jun,384,1,-1,0,unknown,no,2674015238,christylewis@example.net,"141 Stacey Land
+Lake Josephport, LA 96213",False,capitalone.com/auto-loans,76
+Jamie Larson,53,services,divorced,secondary,no,1467,yes,no,5,may,124,1,-1,0,unknown,no,9639343948,cpowers@example.net,"2164 Moss Wells
+Jonesmouth, MT 60697",False,capitalone.com/auto-loans,76
+William Johnson,51,technician,single,tertiary,no,11222,yes,no,3,jun,151,7,-1,0,unknown,no,9444827710,kolson@example.net,"1297 Anderson Stravenue Suite 094
+Toddville, TX 16495",False,capitalone.com/auto-loans,76
+Mark Knox,29,entrepreneur,married,secondary,no,291,yes,no,2,jun,205,3,-1,0,unknown,no,5082058067,calvinhaney@example.net,"Unit 5472 Box 7273
+DPO AP 72140",False,capitalone.com/auto-loans,76
+Tracy Olson,44,blue-collar,married,primary,no,3753,yes,no,28,may,122,4,-1,0,unknown,no,5465793059,michaelgarcia@example.com,"2008 Baldwin Cape Suite 765
+East Jessicaside, MS 78788",False,capitalone.com/auto-loans,76
+Christina Mitchell,43,blue-collar,married,primary,no,1401,yes,no,12,may,195,2,-1,0,unknown,no,7566653942,tho@example.net,"6258 Daniels Avenue
+West Johnborough, WV 40798",False,capitalone.com/auto-loans,76
+Michael Phillips,46,blue-collar,married,primary,no,684,yes,no,29,may,414,2,-1,0,unknown,no,2169023774,nnash@example.org,"32010 Vaughn Trafficway
+Greenton, PR 09986",False,capitalone.com/auto-loans,76
+Jasmin Kerr,50,management,divorced,tertiary,no,704,yes,no,8,may,233,2,-1,0,unknown,no,6006864496,brooke39@example.org,"2819 Benjamin Springs
+Wrightside, AL 29596",False,capitalone.com/auto-loans,76
+Ethan Moore,37,blue-collar,single,secondary,no,2032,yes,no,21,may,158,2,-1,0,unknown,no,2466447020,iperez@example.net,"05903 Michael Trail
+Brianshire, CA 36726",False,capitalone.com/auto-loans,76
+Mary Alexander DDS,30,admin.,married,secondary,no,67,yes,no,16,may,149,1,-1,0,unknown,no,2276463831,rogerskimberly@example.org,"87138 Angela Unions Apt. 147
+Erikborough, GU 65029",False,capitalone.com/auto-loans,76
+Angela Jones,46,services,married,secondary,no,4780,yes,no,2,jun,105,3,-1,0,unknown,no,6069908267,jamiesanchez@example.org,"73367 Steven Circle Apt. 894
+Lake James, NM 13444",False,capitalone.com/auto-loans,76
+Maria Logan,46,services,married,secondary,no,2215,no,no,6,jun,222,2,-1,0,unknown,no,2074358336,rmiller@example.com,"132 Marissa Run Suite 419
+Gailberg, AS 62209",False,capitalone.com/auto-loans,75
+Daniel Holden,33,services,married,secondary,no,34,yes,yes,3,jun,161,1,-1,0,unknown,no,9739875272,sandersronald@example.net,"36561 Smith Loop Suite 014
+Lake Martinmouth, IL 84642",False,capitalone.com/auto-loans,75
+Nicholas Anderson,51,services,married,secondary,no,-467,no,no,9,jun,216,5,-1,0,unknown,no,9069536381,ellisjessica@example.org,"2980 Garrett Walk Apt. 376
+South Anthony, MS 91875",False,capitalone.com/auto-loans,75
+Andre Smith,54,technician,divorced,secondary,no,7449,yes,no,19,may,235,7,-1,0,unknown,no,4707939778,jeffreylee@example.org,"43182 Diana Falls Apt. 263
+Brookestad, PW 81132",False,capitalone.com/auto-loans,75
+Sean Brown,39,admin.,single,secondary,no,113,yes,no,6,may,342,1,-1,0,unknown,no,4182563558,arroyojustin@example.com,"361 Cole View Apt. 242
+New Mary, FL 73964",False,capitalone.com/auto-loans,75
+Crystal Estrada,29,services,married,primary,no,711,yes,no,3,jun,136,4,-1,0,unknown,no,7224012247,katherinemurphy@example.org,"9901 Monique Summit
+Lake Ruthstad, ME 81464",False,capitalone.com/auto-loans,75
+Lisa Rodriguez,52,admin.,married,secondary,no,1004,yes,no,9,jun,144,1,-1,0,unknown,no,7713270953,wwilliams@example.com,"2702 Nichols Divide
+South Jennifer, MH 93543",False,capitalone.com/auto-loans,75
+Anthony White,31,technician,single,tertiary,no,491,yes,no,8,may,237,1,-1,0,unknown,no,7997555732,clarkepatrick@example.org,"8229 Jackson Trail Suite 086
+Johnport, KS 25448",False,capitalone.com/auto-loans,75
+Alexander Walton,30,services,single,secondary,no,1649,yes,no,23,may,206,1,-1,0,unknown,no,2139455047,xmcdowell@example.com,"1180 Lopez Spur
+East Angela, MA 98571",False,capitalone.com/auto-loans,75
+Charles Herring,31,blue-collar,married,secondary,no,873,yes,no,23,may,145,4,-1,0,unknown,no,5997317953,tnichols@example.org,"PSC 2244, Box 2805
+APO AP 27464",False,capitalone.com/auto-loans,75
+Joshua Collins,25,services,married,secondary,no,-454,yes,no,12,may,24,1,-1,0,unknown,no,6635273587,silvarobert@example.com,"078 Stacey Creek
+North Melissafort, OR 08346",False,capitalone.com/auto-loans,75
+Catherine Becker,31,blue-collar,married,primary,no,490,yes,no,29,may,180,2,-1,0,unknown,no,6226880423,amarquez@example.org,"6882 Galloway Radial Suite 222
+Martinezview, OK 22374",False,capitalone.com/auto-loans,75
+Michael Cruz,28,blue-collar,single,secondary,no,43,no,no,19,may,190,1,-1,0,unknown,no,3578308128,lauren64@example.net,"664 Alexander Knoll Suite 987
+East Ryan, IA 10796",False,capitalone.com/auto-loans,75
+Jennifer Williams,46,blue-collar,married,secondary,no,84,yes,no,15,may,49,1,-1,0,unknown,no,8243370142,reynoldsmichael@example.com,"59981 Jennifer Turnpike
+Gilesside, UT 89822",False,capitalone.com/auto-loans,74
+Shane Myers,59,blue-collar,married,secondary,no,0,yes,no,20,may,217,4,-1,0,unknown,no,7658360162,pricedavid@example.org,"0555 Morris Underpass Suite 339
+West Victoriachester, LA 77204",False,capitalone.com/auto-loans,74
+Frank Hall,56,housemaid,divorced,secondary,no,0,no,no,15,may,103,1,-1,0,unknown,no,3387587974,njacobs@example.net,"6480 Doyle Summit
+West Christopher, VA 79330",False,capitalone.com/auto-loans,74
+Susan Oliver,40,admin.,single,secondary,no,-227,yes,no,7,may,161,3,-1,0,unknown,no,6095230947,danielle59@example.net,"666 Holly Rue
+Hicksfort, CA 77324",False,capitalone.com/auto-loans,73
+Nicole Young,45,blue-collar,married,secondary,no,771,yes,no,19,may,221,2,-1,0,unknown,no,3038559151,dayolivia@example.com,"423 White Locks Apt. 895
+New Angela, FL 68828",False,capitalone.com/auto-loans,73
+Dean Leon,59,retired,divorced,tertiary,no,4,yes,no,2,jun,517,2,-1,0,unknown,no,6772522071,snelson@example.org,"Unit 3948 Box 3226
+DPO AE 63946",False,capitalone.com/auto-loans,73
+Sue Hahn,27,management,married,secondary,no,-41,yes,no,16,may,24,1,-1,0,unknown,no,8107977420,ricardo24@example.net,"73476 Robert Hollow Apt. 572
+New Hollyberg, MD 63176",False,capitalone.com/auto-loans,73
+Jose Guerrero,30,blue-collar,single,secondary,no,4648,yes,no,20,may,37,1,-1,0,unknown,no,4416545490,vincentwood@example.net,"96958 Cisneros Corner Apt. 243
+North Lindatown, DE 43606",False,capitalone.com/auto-loans,73
+Terri Bass,40,blue-collar,married,secondary,no,193,yes,yes,26,may,258,1,-1,0,unknown,no,4998743057,obenjamin@example.net,"5372 Sophia Plain
+Adamshaven, SC 93946",False,capitalone.com/auto-loans,73
+Laura Woods,55,technician,married,unknown,no,84,yes,no,8,may,166,1,-1,0,unknown,no,9457596528,orose@example.com,"6071 Barker Village
+Johnsonchester, RI 29750",False,capitalone.com/auto-loans,73
+Adam Lowe DDS,35,technician,divorced,secondary,no,-94,yes,no,26,may,114,2,-1,0,unknown,no,4859307853,natalie04@example.com,"660 Tara Island
+Lindaberg, NH 05633",False,capitalone.com/auto-loans,73
+William Bailey,31,services,married,secondary,no,-68,yes,no,26,may,293,4,-1,0,unknown,no,9037998533,enoble@example.org,"641 Emma Summit Suite 469
+New Kenneth, NC 50465",False,capitalone.com/auto-loans,73
+Tina Castillo,59,housemaid,divorced,unknown,no,873,yes,no,7,may,152,3,-1,0,unknown,no,4515257610,whogan@example.com,"619 Fernandez Trail
+New Tinaburgh, WA 68034",False,capitalone.com/auto-loans,73
+Diana Cole,37,technician,married,secondary,no,277,yes,no,9,may,251,2,-1,0,unknown,no,8372210816,melissathomas@example.org,"PSC 1448, Box 9047
+APO AA 73460",False,capitalone.com/auto-loans,72
+Nicole Morales,31,blue-collar,married,primary,no,-464,yes,yes,12,may,256,4,-1,0,unknown,no,8169812665,marksmaria@example.org,"101 Ryan Pine
+West Kathryn, AL 90244",False,capitalone.com/auto-loans,72
+Tanner Swanson,31,blue-collar,married,secondary,no,43,yes,no,19,may,405,3,-1,0,unknown,no,9565367587,roberthernandez@example.com,"75160 Reginald Pike Suite 637
+Lake Walterside, AR 97168",False,capitalone.com/auto-loans,71
+Mrs. Vicki Crawford,53,services,married,unknown,no,18,no,no,5,may,503,2,-1,0,unknown,no,7683342187,rhonda21@example.org,"5314 Hendricks Plain
+East Melaniebury, OR 11502",False,capitalone.com/auto-loans,71
+Justin Wilson,53,technician,divorced,tertiary,no,647,yes,no,16,may,512,6,-1,0,unknown,no,6784410517,juliamarsh@example.org,"77009 Randy Spring
+Port Dianaville, IL 80242",False,capitalone.com/auto-loans,71
+Philip Allen,56,admin.,married,secondary,no,2087,yes,no,12,may,146,1,-1,0,unknown,no,5399138460,lisa58@example.net,"97087 Villa Extension
+Katiestad, NC 36831",False,capitalone.com/auto-loans,71
+Pamela Mills,56,technician,married,primary,no,314,yes,yes,5,jun,75,1,-1,0,unknown,no,5664093301,mramos@example.org,"1757 Wong Lights Apt. 232
+Lake Karenchester, CO 12095",False,capitalone.com/auto-loans,71
+Monique Park,41,technician,single,secondary,no,568,yes,no,30,may,72,2,-1,0,unknown,no,5506872985,salazarsamantha@example.net,"503 Fields Ports Suite 736
+Jamesshire, WV 51266",False,capitalone.com/auto-loans,71
+Antonio Flores,33,admin.,single,secondary,no,673,yes,no,14,may,199,2,-1,0,unknown,no,6768247067,kendra28@example.org,"USNS Holt
+FPO AP 23600",False,capitalone.com/auto-loans,71
+Emily Phillips,22,admin.,married,secondary,no,967,yes,no,4,jun,525,1,-1,0,unknown,no,4252541409,walterpowell@example.org,"05253 Jorge Track Apt. 144
+Weisshaven, OR 03044",False,capitalone.com/auto-loans,71
+Sharon Wilson,34,technician,single,secondary,no,-329,yes,no,27,may,280,1,-1,0,unknown,no,9529157703,samantha66@example.com,"56614 Elliott Track Suite 245
+Lindsayfort, MD 50795",False,capitalone.com/auto-loans,71
+Kelly Salazar,40,technician,married,secondary,no,93,yes,no,13,may,134,2,-1,0,unknown,no,7785536992,obradshaw@example.com,"Unit 0885 Box 0361
+DPO AP 34370",False,capitalone.com/auto-loans,71
+Cheryl Jones,50,management,divorced,tertiary,no,5164,yes,no,2,jun,146,4,-1,0,unknown,no,9833383018,saundersmaureen@example.com,"4533 West Path Apt. 801
+Brownburgh, ME 29656",False,capitalone.com/auto-loans,70
+Marcus Ross,44,management,divorced,tertiary,no,5773,no,no,23,may,597,6,-1,0,unknown,yes,2882900667,millergreg@example.com,"PSC 9567, Box 2770
+APO AE 80218",False,capitalone.com/auto-loans,70
+Laura Ellis,26,technician,single,secondary,no,24299,yes,no,13,may,704,1,-1,0,unknown,no,2272039712,fhowell@example.com,"23154 Lloyd Junction
+Danamouth, NM 05560",False,capitalone.com/auto-loans,70
+Rachel Joseph,25,blue-collar,married,primary,yes,-589,yes,no,3,jun,233,1,-1,0,unknown,no,9443489460,taylordavid@example.net,"631 Jimenez Valley
+West Dianaland, IL 87876",False,capitalone.com/auto-loans,70
+Steven Riddle,52,technician,married,tertiary,no,1405,yes,yes,30,may,255,1,-1,0,unknown,no,9288965657,ellisandrew@example.net,"54406 Joseph Stream Suite 990
+Stevensside, IL 86183",False,capitalone.com/auto-loans,69
+Hannah Romero,31,technician,single,tertiary,no,1887,no,yes,21,may,389,1,-1,0,unknown,no,9807507182,scott14@example.org,"505 Tracey Mountain Suite 625
+Johnbury, MN 89654",False,capitalone.com/auto-loans,69
+Tyrone Glass,42,blue-collar,married,secondary,no,1307,yes,no,30,may,135,3,-1,0,unknown,no,9014921328,johnsmall@example.com,"962 Black Divide Suite 560
+Port Jasonchester, UT 98179",False,capitalone.com/auto-loans,69
+Jenny Swanson,53,management,married,secondary,yes,-689,yes,no,13,may,242,1,-1,0,unknown,no,4463211434,fmccarthy@example.com,"5467 Mcclain Bypass Apt. 924
+Rosariochester, VT 70921",False,capitalone.com/auto-loans,69
+Jennifer Diaz,51,blue-collar,married,unknown,no,1883,yes,no,5,may,57,1,-1,0,unknown,no,8808532984,nzamora@example.org,"9539 Cesar Trail
+Crosbyfurt, CT 99144",False,capitalone.com/auto-loans,69
+Colin Gomez,45,admin.,married,secondary,no,-173,yes,no,27,may,315,2,-1,0,unknown,no,6315106492,saramercado@example.net,"042 Lauren Creek Apt. 562
+North Tonya, PW 89775",False,capitalone.com/auto-loans,69
+Noah Robinson,41,blue-collar,married,secondary,no,-256,yes,no,3,jun,147,2,-1,0,unknown,no,4503392046,jbryant@example.org,"87479 Rachel Court Suite 404
+East Jocelyn, GU 10909",False,capitalone.com/auto-loans,69
+Brandon Murray III,46,technician,divorced,tertiary,no,405,yes,no,15,may,231,1,-1,0,unknown,no,3987936838,keithsavage@example.org,"33286 Rose Field Suite 201
+West Donald, OH 37879",False,capitalone.com/auto-loans,69
+William Shea,39,blue-collar,divorced,primary,yes,-294,yes,no,5,jun,181,2,-1,0,unknown,no,6098150230,vjohnson@example.org,"555 Robinson Circle
+Port Joseborough, SD 45187",False,capitalone.com/auto-loans,69
+Gabriela Bishop,45,blue-collar,married,primary,no,1227,no,no,5,jun,127,3,-1,0,unknown,no,2213806173,troyhicks@example.org,"60592 Perkins Corner
+Armstrongview, AZ 98747",False,capitalone.com/auto-loans,69
+Dr. Anne Lawrence,49,blue-collar,married,primary,no,327,yes,no,16,may,138,2,-1,0,unknown,no,8426366482,williamsonmark@example.org,"2901 Lee Flat
+South Douglas, CT 43525",False,capitalone.com/auto-loans,68
+Catherine King,33,technician,divorced,secondary,no,7,yes,yes,6,may,87,1,-1,0,unknown,no,3948159105,jacksondiana@example.com,"833 Kayla Estates
+Myersberg, MO 34707",False,capitalone.com/auto-loans,68
+Edward Baker,40,blue-collar,married,primary,no,4436,yes,no,13,may,67,2,-1,0,unknown,no,2668583179,amyhoward@example.org,"13276 William Gardens Apt. 187
+Berryshire, WA 33901",False,capitalone.com/auto-loans,68
+Micheal Mann,35,blue-collar,single,primary,no,227,no,yes,5,jun,414,1,-1,0,unknown,no,2032487601,beardmichael@example.com,"71143 Evans Trail Suite 996
+Jesseview, CT 08014",False,capitalone.com/auto-loans,68
+Melissa Ponce,33,management,married,tertiary,no,148,no,no,20,may,717,1,-1,0,unknown,no,6569164088,patrickfernandez@example.org,"227 Lee Terrace Apt. 239
+North Rickyfort, FM 05872",False,capitalone.com/auto-loans,68
+Christine Holmes,37,self-employed,married,tertiary,no,0,no,no,6,jun,143,1,-1,0,unknown,no,4844938525,pattoncarol@example.net,"1694 Reese Coves
+West James, SD 11221",False,capitalone.com/auto-loans,67
+Michael Matthews,44,housemaid,married,secondary,no,281,yes,no,8,may,604,1,-1,0,unknown,no,5973993626,kevinwoods@example.org,"69023 Martin Square
+East Kyle, HI 58910",False,capitalone.com/auto-loans,67
+Taylor Green,56,admin.,divorced,secondary,no,778,yes,no,6,may,149,2,-1,0,unknown,no,7879361891,timothy20@example.net,"Unit 0119 Box 9770
+DPO AE 91820",False,capitalone.com/auto-loans,67
+Heather Bentley,36,entrepreneur,divorced,tertiary,no,914,no,no,6,jun,219,1,-1,0,unknown,no,7092932234,louismullen@example.org,"038 Gray Lodge Apt. 834
+South Ian, MN 32525",False,capitalone.com/auto-loans,67
+Tiffany Hartman,55,admin.,married,secondary,no,1102,yes,no,15,may,126,2,-1,0,unknown,no,6763251057,kathleencollins@example.org,"2916 Debra Summit
+Port Derek, MT 50018",False,capitalone.com/auto-loans,67
+Kristen Ewing,40,blue-collar,married,primary,no,-66,yes,no,6,may,288,1,-1,0,unknown,no,5802260644,david32@example.net,"9716 Logan Prairie
+South Christopherland, AL 47546",False,capitalone.com/auto-loans,67
+Eric Porter,27,admin.,married,secondary,no,186,yes,no,27,may,136,2,-1,0,unknown,no,5072685294,martinezalexandra@example.org,"87418 Gonzalez Ranch
+East Richardberg, ND 46257",False,capitalone.com/auto-loans,67
+Brian Alexander,34,services,married,primary,no,1042,yes,no,20,may,167,1,-1,0,unknown,no,7617777513,jpearson@example.com,"167 Gregory Way Suite 333
+Gonzaleztown, AK 26369",False,capitalone.com/auto-loans,66
+Sheila Williams,32,technician,single,secondary,no,258,no,no,3,jun,114,3,-1,0,unknown,no,8178531766,kempjonathan@example.com,"2644 Wright Parks Apt. 636
+Jamiemouth, MN 29522",False,capitalone.com/auto-loans,66
+Michael Mendoza,25,technician,single,secondary,no,2,yes,yes,16,may,304,2,-1,0,unknown,no,9946943709,margaretkemp@example.net,"4962 Wells Knoll Apt. 755
+Barnettport, WY 36854",False,capitalone.com/auto-loans,66
+Robert Mullen,31,admin.,married,primary,no,355,yes,yes,4,jun,61,6,-1,0,unknown,no,2085434053,adamgarcia@example.net,"418 James Land Apt. 653
+Roberttown, SD 74122",False,capitalone.com/auto-loans,66
+Kaitlin Mcdonald,30,entrepreneur,married,secondary,no,2551,yes,no,5,jun,142,2,-1,0,unknown,no,2963170291,pthomas@example.com,"55489 Dylan Way
+Lake Andrewfurt, DC 47163",False,capitalone.com/auto-loans,65
+John Sutton,33,admin.,divorced,secondary,no,392,yes,yes,26,may,245,3,-1,0,unknown,no,2678381252,qjuarez@example.com,"7316 Richard Ferry
+Lake Kevin, NC 61484",False,capitalone.com/auto-loans,65
+Kristina Johnston,28,technician,single,secondary,no,-9,yes,yes,9,may,175,5,-1,0,unknown,no,4988005889,moralesbenjamin@example.net,"0902 Paul Drive Suite 374
+East Michael, PA 80047",False,capitalone.com/auto-loans,65
+Lisa Neal,32,blue-collar,single,secondary,no,476,yes,yes,19,may,503,2,-1,0,unknown,no,7153758042,omeyers@example.org,"851 Bolton Springs Apt. 486
+Johnport, FM 11512",False,capitalone.com/auto-loans,64
+Margaret Day,28,blue-collar,single,secondary,no,416,yes,no,13,may,452,2,-1,0,unknown,no,9314759704,wswanson@example.org,"85503 Jenkins Knoll
+Joshuaport, NE 02882",False,capitalone.com/auto-loans,64
+Jason Silva,45,management,married,unknown,no,9051,yes,no,19,may,124,63,-1,0,unknown,no,2183893827,rogerschelsea@example.org,"0800 Craig Ferry Suite 344
+North Ian, HI 89516",False,capitalone.com/auto-loans,64
+Laura Harvey,30,blue-collar,married,primary,no,265,yes,yes,9,may,380,1,-1,0,unknown,no,6558684269,qperkins@example.org,"16240 Patricia Keys Apt. 609
+Kristenfort, OR 91031",False,capitalone.com/auto-loans,64
+Mr. Michael Mitchell MD,56,technician,married,primary,no,675,yes,no,29,may,137,1,-1,0,unknown,no,3506453086,rsmith@example.com,"34602 Morales Heights Suite 168
+Robertchester, SC 89772",False,capitalone.com/auto-loans,64
+Diane Garcia,48,unemployed,married,primary,no,551,yes,no,29,may,162,2,-1,0,unknown,no,4835882629,annasanchez@example.net,"0891 Cook Knolls
+New Melissachester, AR 23119",False,capitalone.com/auto-loans,63
+Kelly Blackburn,22,technician,single,secondary,no,356,yes,no,27,may,518,2,-1,0,unknown,no,5314084262,pwalton@example.com,"53132 Lang Vista
+Dakotashire, MO 30816",False,capitalone.com/auto-loans,63
+Crystal Terry,40,unemployed,married,primary,no,3444,yes,no,19,may,792,4,-1,0,unknown,no,7913196846,lutzkimberly@example.com,"Unit 5187 Box 4952
+DPO AP 54521",False,capitalone.com/auto-loans,63
+Dr. Jermaine Hebert,38,admin.,single,unknown,no,13,no,no,5,jun,21,1,-1,0,unknown,no,8308311977,masonjoan@example.net,"7216 Matthew Plaza
+Lake Mark, WA 08039",False,capitalone.com/auto-loans,63
+Scott Campbell,36,blue-collar,married,primary,no,599,yes,no,21,may,649,2,-1,0,unknown,yes,3205442375,jessicajohnson@example.org,"4640 Charles Island Suite 303
+Hillfort, RI 66529",False,capitalone.com/auto-loans,63
+Nicholas Taylor,38,admin.,married,secondary,no,1073,yes,no,21,may,207,2,-1,0,unknown,no,5934902998,byrdlarry@example.com,"USCGC Meyer
+FPO AA 29976",False,capitalone.com/auto-loans,62
+Marc Walter,41,admin.,divorced,primary,no,4070,yes,no,6,may,140,2,-1,0,unknown,no,2089215871,duranjohn@example.com,"62178 Smith Creek Apt. 498
+Gregoryshire, NH 66491",False,capitalone.com/auto-loans,62
+Erica Anderson,59,retired,married,secondary,no,-313,yes,no,20,may,407,1,-1,0,unknown,no,3753936931,lindathompson@example.net,"332 Susan Station Suite 763
+West Ashley, RI 86642",False,capitalone.com/auto-loans,62
+Joseph Davis,44,services,married,secondary,no,556,no,no,19,may,134,3,-1,0,unknown,no,5027021796,williambryan@example.com,"059 Smith Knolls
+Timothyside, NC 32858",False,capitalone.com/auto-loans,62
+Donald Juarez,45,services,married,secondary,no,-3,yes,no,13,may,213,1,-1,0,unknown,no,2439526221,mckayhoward@example.com,"72823 Jackson Union
+New Jared, NH 95452",False,capitalone.com/auto-loans,62
+Jim Williams,54,blue-collar,divorced,primary,no,8180,no,no,19,may,312,1,-1,0,unknown,no,8299581909,syoung@example.com,"8838 Anthony Ferry
+New Melissafort, VA 25623",False,capitalone.com/auto-loans,61
+Angelica Cummings,41,management,married,tertiary,no,437,yes,no,3,jun,14,21,-1,0,unknown,no,8666306080,scottwilliam@example.com,"6298 John Ridges
+Port Bethmouth, CA 41042",False,capitalone.com/auto-loans,61
+John Jones,43,admin.,married,primary,no,482,yes,no,6,jun,1041,13,-1,0,unknown,no,6252494029,tarawilliams@example.net,"435 Martin Drives Suite 659
+Mendozachester, KS 26572",False,capitalone.com/auto-loans,61
+Joseph Mitchell,38,blue-collar,married,secondary,no,384,yes,no,6,may,1906,3,-1,0,unknown,no,2196933208,tracy17@example.net,"0405 Danielle Meadows
+Stevenbury, FL 32273",False,capitalone.com/auto-loans,61
+Brian Williams,31,management,single,tertiary,no,0,yes,no,5,may,562,1,-1,0,unknown,no,7768873315,owagner@example.net,"7073 Jorge Haven
+South Melissa, GU 77520",False,capitalone.com/auto-loans,61
+Alexander Phillips,29,technician,married,tertiary,no,43,yes,no,20,may,68,2,-1,0,unknown,no,9664887571,ashley76@example.org,"735 Reid Valleys
+Carterton, OK 48643",False,capitalone.com/auto-loans,60
+Betty Mcguire,37,admin.,single,secondary,no,569,yes,yes,6,may,126,2,-1,0,unknown,no,7398279989,istout@example.com,"17946 Clark Grove Suite 448
+West Nancyfort, OR 08723",False,capitalone.com/auto-loans,60
+Mitchell Holland,59,blue-collar,married,secondary,no,1407,yes,no,9,may,232,1,-1,0,unknown,no,3587894280,joshuamorton@example.org,"714 Pierce Vista
+Chenville, WV 44958",False,capitalone.com/auto-loans,60
+Frederick Hart,60,retired,married,primary,no,60,yes,no,5,may,219,1,-1,0,unknown,no,3696609090,helen93@example.com,"27015 Ward Court Apt. 520
+Vincentchester, MH 92956",False,capitalone.com/auto-loans,60
+Alexis Smith,42,admin.,divorced,secondary,no,1076,yes,no,14,may,213,1,-1,0,unknown,no,8892395607,drichardson@example.com,"20116 Amanda Island Apt. 940
+North Robert, IN 99183",False,capitalone.com/auto-loans,59
+Christopher Mccall,46,blue-collar,married,secondary,no,78,yes,yes,7,may,145,1,-1,0,unknown,no,2099768564,markanderson@example.net,"62749 Andrew Locks Apt. 343
+Ayalafort, KS 05415",False,capitalone.com/auto-loans,58
+Sarah Wilson,31,blue-collar,married,unknown,yes,-13,yes,no,30,may,176,4,-1,0,unknown,no,3647761649,hwright@example.org,"58562 Michelle Place Apt. 401
+Wardshire, NJ 62995",False,capitalone.com/auto-loans,58
+Aaron Robles,36,blue-collar,married,secondary,no,141,yes,no,23,may,106,3,-1,0,unknown,no,9292887832,howardreynolds@example.com,"Unit 4080 Box 8461
+DPO AE 40111",False,capitalone.com/auto-loans,57
+Robert Reed,29,services,single,secondary,no,566,no,no,7,may,127,2,-1,0,unknown,no,3129529148,lewisgerald@example.net,"02788 Stephen Centers Apt. 361
+Brooksstad, VI 97070",False,capitalone.com/auto-loans,57
+Kyle Gardner,52,management,married,secondary,no,428,yes,no,30,may,153,1,-1,0,unknown,no,8319810643,kayla31@example.com,"7168 Carter Rue Suite 115
+Kathleenmouth, SC 03231",False,capitalone.com/auto-loans,56
+Tony Ramirez,27,admin.,divorced,secondary,no,112,yes,no,19,may,104,1,-1,0,unknown,no,5954746478,alicialewis@example.net,"2751 Chan Cliff Suite 244
+Rogermouth, SC 38343",False,capitalone.com/auto-loans,56
+John Shannon,60,blue-collar,married,secondary,no,71,no,no,5,jun,185,1,-1,0,unknown,no,6576178982,wayala@example.net,"93370 Smith Vista Suite 946
+Coffeymouth, WA 37908",False,capitalone.com/auto-loans,56
+Janice Reynolds,55,services,divorced,secondary,no,91,no,no,5,may,349,1,-1,0,unknown,no,3063701367,mark09@example.net,"318 Obrien Circles Suite 819
+Thomasstad, RI 26680",False,capitalone.com/auto-loans,56
+Erin Lyons,36,technician,single,secondary,no,300,yes,no,6,jun,358,1,-1,0,unknown,no,9514082628,april09@example.org,"USNS Hall
+FPO AP 31972",False,capitalone.com/auto-loans,56
+Allison Boyd,31,blue-collar,married,secondary,no,3311,yes,no,20,may,719,1,-1,0,unknown,yes,2327504883,qlewis@example.net,"USNS Vazquez
+FPO AA 17324",False,capitalone.com/auto-loans,56
+Maureen Rogers,33,technician,single,secondary,no,-409,yes,no,28,may,96,1,-1,0,unknown,no,8197794122,npetty@example.net,"4366 Molina Cliff
+East Craig, ME 37871",False,capitalone.com/auto-loans,55
+Michelle Ramirez,58,retired,divorced,secondary,no,219,no,no,5,jun,133,1,-1,0,unknown,no,4889595171,angelicapetersen@example.org,"5772 Sherri Key
+East Roseshire, AK 01448",False,capitalone.com/auto-loans,55
+Samantha Morton,59,technician,married,secondary,no,519,yes,no,28,may,90,8,-1,0,unknown,no,3415848617,onealjoshua@example.com,"3978 Lauren Turnpike
+East Thomasbury, WI 41611",False,capitalone.com/auto-loans,55
+Crystal Golden,46,technician,divorced,secondary,no,772,yes,no,23,may,488,1,-1,0,unknown,no,7237772408,ashleyperkins@example.org,"USS Sheppard
+FPO AA 61278",False,capitalone.com/auto-loans,55
+Emily Garcia,29,blue-collar,married,unknown,no,135,yes,no,23,may,150,6,-1,0,unknown,no,4329550717,younglisa@example.org,"921 Webb Common Apt. 120
+Lake Jasonfurt, WV 63699",False,capitalone.com/auto-loans,55
+Patrick Knight,51,technician,divorced,secondary,no,329,yes,no,28,may,191,5,-1,0,unknown,no,2062740349,zzimmerman@example.com,"4337 Owens Isle Suite 272
+West Robert, MI 20204",False,capitalone.com/auto-loans,55
+Nicholas Garza,39,admin.,married,secondary,no,6421,no,yes,20,may,661,1,-1,0,unknown,no,5332876454,solisandrew@example.com,"166 Henderson Shoal Apt. 786
+Lake Maria, AS 89428",False,capitalone.com/auto-loans,54
+Brian Rogers,49,blue-collar,married,primary,no,383,yes,yes,26,may,31,1,-1,0,unknown,no,6772124847,lisa35@example.com,"58373 Kathryn Flat
+Gonzalesborough, MI 87045",False,capitalone.com/auto-loans,54
+Rebecca Hall,35,technician,married,tertiary,no,712,yes,no,27,may,73,2,-1,0,unknown,no,4643271256,amandajohnson@example.com,"347 Daniels Lakes
+Hughesfurt, UT 38499",False,capitalone.com/auto-loans,53
+Jacob Jackson,28,management,married,tertiary,no,103,yes,no,16,may,461,2,-1,0,unknown,no,6666276133,swilliams@example.com,"30446 Pamela Plaza Apt. 595
+Port Johnchester, WI 87484",False,capitalone.com/auto-loans,53
+Wayne Brown,34,blue-collar,single,primary,no,246,no,no,3,jun,81,5,-1,0,unknown,no,8866984090,andrew67@example.com,"75484 Craig Corners
+Ortizbury, MP 85658",False,capitalone.com/auto-loans,53
+Elizabeth Stephens,43,technician,single,secondary,no,1462,no,no,9,jun,75,2,-1,0,unknown,no,4417706458,richardsonmarcus@example.org,"715 Howard Bridge
+North Lawrenceton, TN 96357",False,capitalone.com/auto-loans,53
+Kayla Thompson,47,unknown,married,unknown,no,28,no,no,5,may,338,2,-1,0,unknown,no,2245344587,rebeccanolan@example.org,"414 Gutierrez Shoal Suite 074
+Reedhaven, MD 46258",False,capitalone.com/auto-loans,53
+Kimberly Green,34,blue-collar,married,secondary,no,-58,yes,yes,28,may,157,2,-1,0,unknown,no,9419291276,jeremysanchez@example.net,"95821 Hayes Islands Apt. 104
+East Sabrinamouth, PA 42702",False,capitalone.com/auto-loans,53
+Emily Miles,39,technician,married,secondary,no,3643,yes,no,23,may,160,3,-1,0,unknown,no,7949504969,williamvaldez@example.org,"43257 Miles Brook
+South Jenniferberg, WA 97915",False,capitalone.com/auto-loans,52
+Robin Brooks,27,admin.,married,secondary,no,1475,yes,no,27,may,472,1,-1,0,unknown,no,4864852163,wileycharles@example.com,"559 Jackson Viaduct Apt. 568
+Mcfarlandland, UT 67762",False,capitalone.com/auto-loans,52
+Amber Rogers,28,admin.,single,secondary,no,350,yes,yes,19,may,5,2,-1,0,unknown,no,6514149011,john59@example.org,"3457 Andrea Course
+Lewisberg, AL 96421",False,capitalone.com/auto-loans,52
+David Williams,30,technician,single,tertiary,no,419,yes,yes,28,may,299,3,-1,0,unknown,no,6726692842,trose@example.org,"381 Mendoza Mall Suite 296
+East Bob, MI 45045",False,capitalone.com/auto-loans,52
+Hannah Irwin,48,management,married,primary,no,1744,no,no,9,jun,181,1,-1,0,unknown,no,7787321763,elizabethmoore@example.org,"2033 Ruiz Isle
+Lauraport, RI 83029",False,capitalone.com/auto-loans,52
+John Rogers,53,unknown,divorced,tertiary,no,2272,yes,no,14,may,243,1,-1,0,unknown,no,7674882104,stephenchristian@example.com,"Unit 6962 Box 2261
+DPO AE 37655",False,capitalone.com/auto-loans,52
+Kevin Simpson,50,services,single,secondary,no,72,no,no,8,may,141,2,-1,0,unknown,no,8479890095,melissashort@example.net,"07361 Margaret Trail
+Port Russellside, OK 35612",False,capitalone.com/auto-loans,51
+Richard Taylor,57,housemaid,married,primary,no,0,no,no,9,jun,257,2,-1,0,unknown,no,5726860380,jonesashley@example.org,"5639 Christian Estate Apt. 154
+Lake Loganberg, WY 83927",False,capitalone.com/auto-loans,51
+Matthew Winters,58,blue-collar,married,secondary,no,590,no,yes,5,jun,133,1,-1,0,unknown,no,3344629763,lkeller@example.org,"6302 Victoria Throughway
+Sueshire, OK 15053",False,capitalone.com/auto-loans,50
+Linda Deleon,31,blue-collar,married,secondary,no,1017,yes,no,29,may,514,3,-1,0,unknown,no,2606795020,johnoliver@example.com,"1403 Weber Walks Suite 833
+Davenportshire, TN 46376",False,capitalone.com/auto-loans,50
+Ashley Gonzalez,38,blue-collar,married,secondary,no,35,yes,no,28,may,130,2,-1,0,unknown,no,6366829600,aalvarez@example.org,"91986 Christopher Station Suite 412
+Waynestad, MD 81299",False,capitalone.com/auto-loans,50
+Lisa Cervantes,30,admin.,divorced,primary,no,1032,yes,no,29,may,52,5,-1,0,unknown,no,4194662734,lmann@example.com,"06766 Evans Track
+Rhodeshaven, SD 49371",False,capitalone.com/auto-loans,50
+Andrew Nelson,49,admin.,married,secondary,no,-209,no,no,30,may,171,1,-1,0,unknown,no,6475639781,lauramays@example.com,"88513 Sarah Mission Apt. 328
+South Amandafort, WY 48893",False,capitalone.com/auto-loans,50
+Nicole Herman,42,self-employed,married,primary,no,3641,yes,no,14,may,869,1,-1,0,unknown,no,3238100756,stephanie45@example.net,"USNV Boone
+FPO AP 96232",False,capitalone.com/auto-loans,50
+Jennifer Barr,44,blue-collar,married,primary,no,353,yes,no,13,may,705,1,-1,0,unknown,no,5347624711,taylormichael@example.com,"219 Joe Path Apt. 154
+Carneychester, AK 16475",False,capitalone.com/auto-loans,49
+Laura Smith,34,blue-collar,married,secondary,no,2137,no,no,9,may,245,4,-1,0,unknown,no,5387114825,burnsjoseph@example.com,"3706 Ryan Groves Apt. 874
+New Saraside, KS 62343",False,capitalone.com/auto-loans,49
+Jordan Johnson,52,services,married,secondary,no,108,yes,no,15,may,543,12,-1,0,unknown,no,5965883332,benitezwilliam@example.net,"988 Escobar Pines
+South Brandy, VT 52546",False,capitalone.com/auto-loans,49
+Paul Ramirez,33,blue-collar,single,secondary,no,687,yes,no,9,may,174,1,-1,0,unknown,no,6525525036,sperez@example.org,"32867 Scott Via
+Duncanshire, NE 55939",False,capitalone.com/auto-loans,49
+Gloria Villegas DDS,35,technician,single,secondary,no,175,yes,no,28,may,223,1,-1,0,unknown,no,2233560015,amy71@example.com,"6535 Coleman Pine Suite 108
+Melanieshire, MT 74929",False,capitalone.com/auto-loans,49
+Kimberly Kim,54,blue-collar,married,primary,no,-239,yes,no,23,may,29,1,-1,0,unknown,no,4152168579,williamscolin@example.net,"62622 Taylor Groves
+New Kaitlynville, AK 44759",False,capitalone.com/auto-loans,48
+Tyler Sampson,37,services,divorced,secondary,no,319,yes,no,6,jun,467,3,-1,0,unknown,yes,8703920737,bettybecker@example.com,"25585 Griffin Heights Suite 454
+Lake Michael, NM 35293",False,capitalone.com/auto-loans,48
+Erica Petersen,56,blue-collar,single,primary,no,739,yes,no,15,may,95,1,-1,0,unknown,no,7503741559,robertseric@example.net,"67942 Christina Place
+Heatherchester, MH 70146",False,capitalone.com/auto-loans,48
+Vincent Patel,34,services,married,secondary,no,24,yes,no,28,may,124,1,-1,0,unknown,no,4057062062,andreamarsh@example.net,"90626 Smith Knolls
+Lauraland, PA 27611",False,capitalone.com/auto-loans,47
+Timothy Bailey,41,management,married,tertiary,no,5,no,no,5,jun,178,1,-1,0,unknown,no,9118279652,fisherkaren@example.org,"47257 Gentry Mountains
+Garzahaven, AS 00886",False,capitalone.com/auto-loans,46
+Dustin Kelly,40,blue-collar,married,secondary,no,1161,yes,yes,16,may,292,8,-1,0,unknown,no,2707343507,ksmith@example.net,"52235 Aguirre Pine
+East Courtneyshire, MN 40355",False,capitalone.com/auto-loans,46
+Nicole Sparks,32,services,married,secondary,no,4789,yes,yes,6,jun,407,4,-1,0,unknown,no,5417555235,ericksonblake@example.net,"PSC 0879, Box 2462
+APO AA 03791",False,capitalone.com/auto-loans,45
+Jasmine Anderson,55,admin.,married,secondary,no,131,yes,no,6,may,744,1,-1,0,unknown,no,8374617798,mcclainjames@example.org,"70062 Hodge Mission Apt. 200
+Westmouth, CA 27217",False,capitalone.com/auto-loans,45
+Diane Oneill MD,55,blue-collar,married,secondary,no,224,yes,no,6,may,232,1,-1,0,unknown,no,4216803923,brenda95@example.net,"10791 Ricardo Hollow Suite 495
+South Larry, MT 96404",False,capitalone.com/auto-loans,45
+Gregory Beasley,30,services,single,unknown,no,347,yes,no,21,may,225,1,-1,0,unknown,no,9957058007,kimberlygibson@example.com,"16279 Wilkinson Circle
+New Brandonton, IA 22537",False,capitalone.com/auto-loans,45
+Jeremy Steele,39,entrepreneur,married,secondary,no,283,yes,no,26,may,126,2,-1,0,unknown,no,5457382001,zgordon@example.com,"679 Petersen Mountain
+Dicksonborough, AZ 34436",False,capitalone.com/auto-loans,44
+Catherine Brown,51,blue-collar,married,secondary,no,1374,yes,no,30,may,378,1,-1,0,unknown,no,3318260053,jlewis@example.org,"0386 Cooper Tunnel Apt. 546
+Stevenchester, CT 08789",False,capitalone.com/auto-loans,43
+Charles Charles,36,management,single,tertiary,no,808,no,no,21,may,52,1,-1,0,unknown,no,2968915233,scottwhite@example.com,"27771 Latasha Union Apt. 215
+East Ericaland, AL 43266",False,capitalone.com/auto-loans,42
+Andrea Smith,39,blue-collar,married,primary,no,20,yes,no,7,may,109,1,-1,0,unknown,no,3237875729,nicole37@example.net,"37891 Reyes Ramp Apt. 172
+East Sarastad, ID 19476",False,capitalone.com/auto-loans,42
+Dr. Eric Howell,35,technician,single,tertiary,no,458,yes,no,21,may,1091,3,-1,0,unknown,no,8543641333,westashley@example.com,"2222 Gutierrez Drive Apt. 946
+South Anthonytown, NV 06924",False,capitalone.com/auto-loans,42
+Gloria Horton,44,self-employed,married,tertiary,no,425,no,no,6,jun,147,1,-1,0,unknown,no,2084580765,jennifercaldwell@example.org,"3190 Parrish Manors Apt. 625
+North Lisa, AS 94547",False,capitalone.com/auto-loans,41
+Matthew Andrews,45,management,married,secondary,no,0,no,no,5,jun,65,2,-1,0,unknown,no,5273684025,mejiamatthew@example.com,"4291 Friedman View
+Christinastad, AL 32692",False,capitalone.com/auto-loans,41
+Andrew Boyer,36,entrepreneur,married,tertiary,no,125,yes,no,6,may,95,3,-1,0,unknown,no,7355948095,nelsonstephanie@example.net,"00035 Foley Wall
+Bennetthaven, MT 36770",False,capitalone.com/auto-loans,37
+Brian Ramos,34,blue-collar,married,secondary,no,1710,yes,yes,19,may,187,3,-1,0,unknown,no,9814204401,jonesbrandon@example.org,"45297 Golden Alley
+Hallview, VT 02739",False,capitalone.com/auto-loans,35
+Robert Cobb,53,management,married,tertiary,no,652,no,no,5,jun,91,1,-1,0,unknown,no,8774371764,annette96@example.org,"4291 Amber Hills Suite 215
+New Lawrenceside, SC 31564",False,capitalone.com/auto-loans,34
+Nicholas Butler,45,technician,married,tertiary,no,43,yes,no,6,jun,184,4,-1,0,unknown,no,7683888654,robincooper@example.net,"638 Diaz Summit
+East Scott, AK 87054",False,capitalone.com/auto-loans,32
