@@ -74,6 +74,35 @@ function VideoPlayer() {
     navigator.clipboard.writeText(currentUrl);
     alert("URL copied to clipboard!");
   };
+
+  const handleSendEmail = async () => {
+    const storedJobId = localStorage.getItem("currentJobId");
+
+    if (!storedJobId) {
+      console.error("No Job ID found in localStorage.");
+      return;
+    }
+
+    try {
+      const response = await fetch("http://127.0.0.1:8000/send-emails/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ jobId: storedJobId }),
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        console.log("Email sent successfully:", result);
+      } else {
+        console.error("Failed to send email:", response.statusText);
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+    }
+  };
+
   
 
   if (loading) {
@@ -122,6 +151,10 @@ function VideoPlayer() {
         <button className="share-btn" onClick={handleCopyUrl}>
           <Copy size={16} style={{ marginRight: "5px" }} /> Copy URL
         </button>
+        <button className="share-btn" onClick={handleSendEmail}>
+          <Copy size={16} style={{ marginRight: "5px" }} /> Send Email
+        </button>
+
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`}
           target="_blank"

@@ -10,6 +10,7 @@ import Header from "../components/Commons/Header";
 import PrivateRoute from "./PrivateRoutes";
 import ProcessingVideo from "../pages/ProcessingVideo";
 import VideoPlayer from "../pages/VideoPlayer";
+import SocialLoginPage from "../components/SocialLogin";
 
 const AppRoutes = () => {
   const location = useLocation();
@@ -33,6 +34,10 @@ const AppRoutes = () => {
         <Route
           path="/script-editor"
           element={<PrivateRoute element={ScriptEditor} />}
+        />
+        <Route
+          path="/social-login"
+          element={<PrivateRoute element={SocialLoginPage} />}
         />
 
         <Route path="/login" element={<Login />} />
