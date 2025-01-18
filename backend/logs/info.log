@@ -758,3 +758,245 @@ OSError: [Errno 5] Input/output error
 [18/Jan/2025 17:32:34] INFO [basehttp.py:212] [log_message] "GET /video-status/e89748f2-39ce-4a30-8503-fe5ca11ef577/ HTTP/1.1" 200 23
 [18/Jan/2025 17:32:38] INFO [basehttp.py:212] [log_message] "GET /video-status/e89748f2-39ce-4a30-8503-fe5ca11ef577/ HTTP/1.1" 200 23
 [18/Jan/2025 17:32:43] INFO [basehttp.py:212] [log_message] "GET /video-status/e89748f2-39ce-4a30-8503-fe5ca11ef577/ HTTP/1.1" 200 19
+[18/Jan/2025 18:38:42] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 18:38:42] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 18:38:43] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 18:45:08] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 18:45:08] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 18:45:09] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 18:47:24] INFO [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 200 399
+[18/Jan/2025 18:57:26] INFO [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 200 399
+[18/Jan/2025 18:58:44] INFO [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 200 43
+[18/Jan/2025 18:59:04] INFO [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 200 43
+[18/Jan/2025 19:00:05] INFO [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 200 39
+[18/Jan/2025 19:05:10] INFO [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 200 39
+[18/Jan/2025 19:05:56] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 19:05:56] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 19:05:57] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 19:07:07] INFO [basehttp.py:212] [log_message] "OPTIONS /api/auth/user/ HTTP/1.1" 200 0
+[18/Jan/2025 19:07:08] WARNING [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 401 183
+[18/Jan/2025 19:07:19] WARNING [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 401 183
+[18/Jan/2025 19:07:38] INFO [basehttp.py:212] [log_message] "OPTIONS /api/auth/registration/ HTTP/1.1" 200 0
+[18/Jan/2025 19:07:38] WARNING [basehttp.py:212] [log_message] "POST /api/auth/registration/ HTTP/1.1" 400 159
+[18/Jan/2025 19:07:46] INFO [basehttp.py:212] [log_message] "POST /api/auth/registration/ HTTP/1.1" 201 553
+[18/Jan/2025 19:07:54] INFO [basehttp.py:212] [log_message] "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[18/Jan/2025 19:07:54] INFO [basehttp.py:212] [log_message] "POST /api/auth/login/ HTTP/1.1" 200 553
+[18/Jan/2025 19:21:51] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 19:21:51] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 19:21:52] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 19:22:28] WARNING [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 401 183
+[18/Jan/2025 19:22:37] WARNING [basehttp.py:212] [log_message] "POST /api/auth/login/ HTTP/1.1" 400 68
+[18/Jan/2025 19:22:40] WARNING [basehttp.py:212] [log_message] "POST /api/auth/login/ HTTP/1.1" 400 68
+[18/Jan/2025 19:22:41] WARNING [basehttp.py:212] [log_message] "POST /api/auth/login/ HTTP/1.1" 400 68
+[18/Jan/2025 19:22:51] INFO [basehttp.py:212] [log_message] "POST /api/auth/registration/ HTTP/1.1" 201 553
+[18/Jan/2025 19:22:53] INFO [basehttp.py:212] [log_message] "POST /api/auth/login/ HTTP/1.1" 200 553
+[18/Jan/2025 19:23:21] INFO [basehttp.py:212] [log_message] "POST /generate-video/ HTTP/1.1" 202 132
+[18/Jan/2025 19:23:21] INFO [strategy.py:161] [task_message_handler] Task video_generator.tasks.generate_script_task[d15f4f92-ad6c-4c9f-82e1-09f3d830d5e7] received
+[18/Jan/2025 19:23:27] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:23:32] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:23:33] INFO [strategy.py:161] [task_message_handler] Task video_generator.tasks.process_video_task[dca11a7c-605c-4f4e-9fef-3ff76c7603ec] received
+[18/Jan/2025 19:23:37] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:23:41] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:23:47] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:23:52] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:23:57] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:02] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:07] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:11] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:16] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:22] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:27] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:32] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:37] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:41] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:46] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:52] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:24:57] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:25:02] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:25:07] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:25:27] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:26:27] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:27:27] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:28:26] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 23
+[18/Jan/2025 19:28:32] INFO [basehttp.py:212] [log_message] "GET /video-status/69540e05-b5d3-4c10-af0e-961bde87d074/ HTTP/1.1" 200 71
+[18/Jan/2025 19:28:32] INFO [basehttp.py:212] [log_message] "GET /video/21b22934-d91e-47b1-bc3f-667fc3aab541/ HTTP/1.1" 200 8500
+[18/Jan/2025 19:28:33] INFO [basehttp.py:212] [log_message] "GET /media/generated_videos/69540e05-b5d3-4c10-af0e-961bde87d074.mp4 HTTP/1.1" 200 6245260
+[18/Jan/2025 19:51:55] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 19:51:55] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 19:51:56] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 19:52:44] WARNING [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 401 183
+[18/Jan/2025 19:52:48] WARNING [basehttp.py:212] [log_message] "POST /api/auth/login/ HTTP/1.1" 400 68
+[18/Jan/2025 19:52:57] INFO [basehttp.py:212] [log_message] "POST /api/auth/registration/ HTTP/1.1" 201 553
+[18/Jan/2025 19:52:59] INFO [basehttp.py:212] [log_message] "POST /api/auth/login/ HTTP/1.1" 200 553
+[18/Jan/2025 20:05:19] INFO [basehttp.py:212] [log_message] "POST /generate-video/ HTTP/1.1" 202 132
+[18/Jan/2025 20:05:19] INFO [strategy.py:161] [task_message_handler] Task video_generator.tasks.generate_script_task[0056aec3-8c91-4fa1-b7c1-6d22f7bc261d] received
+[18/Jan/2025 20:05:25] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:05:30] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:05:32] INFO [strategy.py:161] [task_message_handler] Task video_generator.tasks.process_video_task[2e98db2f-8347-415a-9dc9-cde71aee72fe] received
+[18/Jan/2025 20:05:35] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:05:40] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:05:44] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:05:50] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:05:55] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:00] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:05] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:10] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:14] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:19] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:25] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:30] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:35] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:40] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:44] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:49] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:06:54] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:00] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:05] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:10] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:15] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:19] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:24] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:30] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:35] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:40] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:45] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:49] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:07:54] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:08:27] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:12] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:15] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:20] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:25] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:29] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:34] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:40] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:45] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:50] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:54] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:09:59] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:10:05] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:10:09] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:10:27] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 23
+[18/Jan/2025 20:11:27] INFO [basehttp.py:212] [log_message] "GET /video-status/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 200 71
+[18/Jan/2025 20:11:27] INFO [basehttp.py:212] [log_message] "GET /video/ba435dd9-963a-4a8d-9b05-949c6c87fb73/ HTTP/1.1" 200 11708
+[18/Jan/2025 20:11:28] INFO [basehttp.py:212] [log_message] "GET /media/generated_videos/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0.mp4 HTTP/1.1" 200 4579521
+[18/Jan/2025 20:26:29] WARNING [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 401 183
+[18/Jan/2025 20:26:31] WARNING [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 401 183
+[18/Jan/2025 20:26:40] INFO [basehttp.py:212] [log_message] "POST /api/auth/login/ HTTP/1.1" 200 553
+[18/Jan/2025 20:26:49] INFO [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 200 62
+[18/Jan/2025 20:26:49] WARNING [basehttp.py:212] [log_message] "GET /video/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 404 48
+[18/Jan/2025 20:26:55] WARNING [basehttp.py:212] [log_message] "GET /video/94a4c1b9-57a8-4a5b-bbd5-4a6457adf4c0/ HTTP/1.1" 404 48
+[18/Jan/2025 20:26:55] INFO [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 200 62
+[18/Jan/2025 20:28:28] INFO [strategy.py:161] [task_message_handler] Task video_generator.tasks.generate_script_task[097a24c0-d7a2-42e6-944a-efd36599a5c4] received
+[18/Jan/2025 20:28:28] INFO [basehttp.py:212] [log_message] "POST /generate-video/ HTTP/1.1" 202 132
+[18/Jan/2025 20:28:34] INFO [basehttp.py:212] [log_message] "GET /video-status/9df7ae06-8b73-4d38-8bd0-218ff309ed67/ HTTP/1.1" 200 23
+[18/Jan/2025 20:28:38] INFO [basehttp.py:212] [log_message] "GET /video-status/9df7ae06-8b73-4d38-8bd0-218ff309ed67/ HTTP/1.1" 200 23
+[18/Jan/2025 20:28:40] INFO [strategy.py:161] [task_message_handler] Task video_generator.tasks.process_video_task[a90d51ab-1e3b-4e15-aeb3-346caa553e48] received
+[18/Jan/2025 20:28:44] INFO [basehttp.py:212] [log_message] "GET /video-status/9df7ae06-8b73-4d38-8bd0-218ff309ed67/ HTTP/1.1" 200 23
+[18/Jan/2025 20:28:49] INFO [basehttp.py:212] [log_message] "GET /video-status/9df7ae06-8b73-4d38-8bd0-218ff309ed67/ HTTP/1.1" 200 23
+[18/Jan/2025 20:28:54] INFO [basehttp.py:212] [log_message] "GET /video-status/9df7ae06-8b73-4d38-8bd0-218ff309ed67/ HTTP/1.1" 200 19
+[18/Jan/2025 20:31:32] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 20:31:32] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 20:31:34] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 20:32:09] WARNING [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 401 183
+[18/Jan/2025 20:32:12] INFO [basehttp.py:212] [log_message] "POST /api/auth/login/ HTTP/1.1" 200 553
+[18/Jan/2025 20:32:48] INFO [basehttp.py:212] [log_message] "POST /generate-video/ HTTP/1.1" 202 132
+[18/Jan/2025 20:32:48] INFO [strategy.py:161] [task_message_handler] Task video_generator.tasks.generate_script_task[b23067eb-ca3b-436e-b0ef-e1df137fd4d2] received
+[18/Jan/2025 20:32:53] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:32:59] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:00] INFO [strategy.py:161] [task_message_handler] Task video_generator.tasks.process_video_task[95078469-bc4b-4001-880b-27acd1d03c01] received
+[18/Jan/2025 20:33:04] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:09] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:13] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:18] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:24] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:29] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:34] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:39] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:44] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:48] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:33:53] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:34:26] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:35:26] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:10] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:14] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:19] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:23] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:28] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:33] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:39] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:44] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:49] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:54] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:36:58] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:03] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:09] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:14] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:19] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:24] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:28] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:33] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:39] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:44] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:49] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:54] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:37:58] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:38:27] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:39:27] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:40:27] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:41:03] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:41:03] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 23
+[18/Jan/2025 20:41:09] INFO [basehttp.py:212] [log_message] "GET /video-status/038c601d-16a9-4558-9d8c-c3c6e8c370ef/ HTTP/1.1" 200 71
+[18/Jan/2025 20:41:08] INFO [basehttp.py:212] [log_message] "GET /video/c4f023f2-f5c4-48bf-b9d4-95e46179384b/ HTTP/1.1" 200 17824
+[18/Jan/2025 20:41:09] INFO [basehttp.py:212] [log_message] "GET /media/generated_videos/038c601d-16a9-4558-9d8c-c3c6e8c370ef.mp4 HTTP/1.1" 200 7784508
+[18/Jan/2025 20:41:14] INFO [basehttp.py:212] [log_message] "OPTIONS /send-emails/ HTTP/1.1" 200 0
+[18/Jan/2025 20:41:14] WARNING [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 403 2568
+[18/Jan/2025 20:44:10] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 20:44:10] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 20:44:11] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 20:44:17] WARNING [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 403 2568
+[18/Jan/2025 20:45:40] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 20:45:40] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 20:45:41] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 20:46:34] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 20:46:34] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 20:46:35] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 20:46:40] WARNING [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 401 183
+[18/Jan/2025 20:46:43] WARNING [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 403 2568
+[18/Jan/2025 20:53:11] WARNING [basehttp.py:212] [log_message] "GET / HTTP/1.1" 404 4360
+[18/Jan/2025 20:53:12] WARNING [basehttp.py:212] [log_message] "GET /favicon.ico HTTP/1.1" 404 4411
+[18/Jan/2025 20:53:14] WARNING [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 403 2568
+[18/Jan/2025 20:54:13] WARNING [basehttp.py:212] [log_message] "GET / HTTP/1.1" 404 4360
+[18/Jan/2025 20:54:24] WARNING [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 405 10695
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[18/Jan/2025 20:54:24] INFO [basehttp.py:212] [log_message] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[18/Jan/2025 20:55:14] ERROR [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 500 39
+[18/Jan/2025 20:55:14] WARNING [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 405 10695
+[18/Jan/2025 20:55:30] INFO [basehttp.py:212] [log_message] "OPTIONS /send-emails/ HTTP/1.1" 200 11123
+[18/Jan/2025 20:55:57] ERROR [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 500 39
+[18/Jan/2025 20:55:57] WARNING [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 405 10695
+[18/Jan/2025 20:56:12] ERROR [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 500 39
+[18/Jan/2025 20:56:12] WARNING [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 405 10695
+[18/Jan/2025 20:56:41] INFO [connection.py:22] [start] Connected to redis://localhost:6379/0
+[18/Jan/2025 20:56:41] INFO [mingle.py:40] [sync] mingle: searching for neighbors
+[18/Jan/2025 20:56:43] INFO [mingle.py:49] [sync] mingle: all alone
+[18/Jan/2025 20:56:43] ERROR [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 500 39
+[18/Jan/2025 20:56:43] WARNING [basehttp.py:212] [log_message] "GET /send-emails/ HTTP/1.1" 405 10695
+[18/Jan/2025 20:57:20] ERROR [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 500 10697
+[18/Jan/2025 20:57:50] WARNING [basehttp.py:212] [log_message] "GET /api/auth/user/ HTTP/1.1" 401 183
+[18/Jan/2025 20:57:50] INFO [basehttp.py:212] [log_message] "GET /video/c4f023f2-f5c4-48bf-b9d4-95e46179384b/ HTTP/1.1" 200 17824
+[18/Jan/2025 20:57:51] INFO [basehttp.py:212] [log_message] "GET /media/generated_videos/038c601d-16a9-4558-9d8c-c3c6e8c370ef.mp4 HTTP/1.1" 200 7784508
+[18/Jan/2025 20:57:52] INFO [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 200 10668
+[18/Jan/2025 20:57:53] WARNING [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 400 44
+[18/Jan/2025 20:57:54] WARNING [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 400 44
+[18/Jan/2025 20:58:01] INFO [basehttp.py:212] [log_message] "POST /send-emails/ HTTP/1.1" 200 10668
