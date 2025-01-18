@@ -1,0 +1,166 @@
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 550px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload__title {
+  margin-bottom: 1em;
+  font-size: 1.6em;
+}
+
+.upload-file-input {
+  display: none;
+}
+
+.button-outlined {
+  padding: 10px 24px;
+  border: 2px solid #006ad1;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: #006ad1;
+  background-color: #ffffff;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+}
+.button-outlined:hover {
+  background-color: #f1f1f1;
+}
+
+.file-preview {
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.file-preview img {
+  height: 200px;
+  margin: auto;
+}
+
+.file-preview ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.file-preview li {
+  color: rgb(35, 87, 140);
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.file-preview p {
+  margin: 0;
+}
+
+.upload-button {
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(
+    290deg,
+    rgba(21, 149, 212, 1) 0%,
+    rgba(0, 106, 209, 1) 100%
+  );
+  background-size: 200% 200%;
+  margin-top: 5px;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.upload-button:hover {
+  animation: gradient-wave 3s infinite;
+  color: #fff;
+}
+
+/* Keyframe animation for the moving gradient effect */
+@keyframes gradient-wave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-load {
+  height: 150px;
+  width: 150px;
+}
+.upload-heading {
+  color: rgb(35, 87, 140);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.processing-mode {
+  display: flex;
+  gap: 10px;
+}
+
+.tab-navigation {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.tab-navigation button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}
+
+.tab-navigation .active-tab {
+  font-weight: bold;
+  background-color: #006ad1;
+  color: #fff;
+}
+
+.tab-content {
+  margin-top: 15px;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.upload-description {
+  font-size: 0.8rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.camera-container video {
+  height: 200px;
+  margin: 0 auto 16px auto;
+}
+
+.upload-text-input {
+  width: 100%;
+  border-radius: 8px;
+  resize: none;
+}
