@@ -17,11 +17,11 @@ const VideoPreferenceSelector = ({ setVideoPreference }) => {
         <label className="video-preference-option">
           <input
             type="radio"
-            value="simplify"
+            value="Concise"
             checked={selectedOption === "simplify"}
             onChange={handleOptionChange}
           />
-          Branding
+          Concise
         </label>
         <label className="video-preference-option">
           <input
@@ -30,7 +30,7 @@ const VideoPreferenceSelector = ({ setVideoPreference }) => {
             checked={selectedOption === "elaborate"}
             onChange={handleOptionChange}
           />
-          Lead Generation
+          Elaborate
         </label>
         
       </div>

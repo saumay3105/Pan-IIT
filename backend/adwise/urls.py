@@ -24,4 +24,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("users.urls")),
     path("", include("core.urls")),
-]
+    path("", include("video_generator.urls")),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
