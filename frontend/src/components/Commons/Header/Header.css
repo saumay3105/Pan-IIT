@@ -72,3 +72,19 @@
   width: auto;
   display: block;
 }
+
+.green-dot {
+  height: 8px;
+  width: 8px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.connected-status {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #006AD1;
+}
