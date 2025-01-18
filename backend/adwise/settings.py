@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     "dj_rest_auth",
     "dj_rest_auth.registration",
     "users",
+    "core",
 ]
 SITE_ID = 1
 
@@ -63,8 +64,11 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+<<<<<<< Updated upstream
     "corsheaders.middleware.CorsMiddleware",
     "allauth.account.middleware.AccountMiddleware",
+=======
+>>>>>>> Stashed changes
 ]
 
 ROOT_URLCONF = "adwise.urls"
@@ -180,6 +184,7 @@ UPLOADED_DOCUMENTS_FOLDER = os.path.join(MEDIA_ROOT, "uploaded_documents")
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+<<<<<<< Updated upstream
 
 # Celery setup
 CELERY_BROKER_URL = "redis://localhost:6379/0"  # Use Redis as broker
@@ -189,3 +194,5 @@ CELERY_RESULT_BACKEND = "redis://localhost:6379/0"
 CELERY_RESULT_SERIALIZER = "json"
 CELERY_TIMEZONE = "UTC"
 CELERYD_CONCURRENCY = 4
+=======
+>>>>>>> Stashed changes
