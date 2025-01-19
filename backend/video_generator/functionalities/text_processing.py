@@ -1,5 +1,6 @@
 import os
 from typing import List
+from collections import Counter
 import textract
 import google.generativeai as genai
 from dotenv import load_dotenv, find_dotenv
@@ -123,3 +124,28 @@ def generate_answer_from_question(
     response = model.generate_content(prompt)
 
     return response.text
+
+def get_loan_type(script):
+    # Dictionary mapping loan types to their keywords
+    loan_keywords = {
+        "home_loan": ["home-loans", "mortgage"],
+        "car_loan": ["auto-loans", "car-loans"],
+        "personal_loan": ["personal-loans"],
+        "health_insurance": ["health-insurance"],
+        "life_insurance": ["life-insurance"],
+    }
+    
+    # Counter to track occurrences of each loan type
+    loan_counts = Counter()
+    
+    # Lowercase the script for case-insensitive matching
+    script = script.lower()
+    
+    # Count occurrences of each keyword
+    for loan_type, keywords in loan_keywords.items():
+        for keyword in keywords:
+            loan_counts[loan_type] += script.count(keyword)
+    
+    # Find the loan type with the most occurrences
+    most_common_loan = loan_counts.most_common(1)
+    return most_common_loan[0][0] if most_common_loan else None

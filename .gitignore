@@ -18,4 +18,5 @@ backend/.env
 /backend/logs
 backend/db.sqlite3
 backend/72acc1be-1968-411e-95db-6543204b5975TEMP_MPY_wvf_snd.mp3
-backend/db.sqlite3
+**/**/db.sqlite3
+*.logs

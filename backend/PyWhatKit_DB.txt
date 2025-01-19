@@ -1,0 +1,46 @@
+Date: 18/1/2025
+Time: 18:58
+Phone Number: +919651648985
+Message: Hello from Miran! This is an instant WhatsApp message.
+--------------------
+Date: 18/1/2025
+Time: 19:0
+Phone Number: +919651648985
+Message: Hi
+--------------------
+Date: 18/1/2025
+Time: 19:6
+Phone Number: +919651648985
+Image: spiderman.jpg
+Caption: 
+--------------------
+Date: 18/1/2025
+Time: 19:10
+Phone Number: +919651648985
+Image: ./spiderman.jpg
+Caption: 
+--------------------
+Date: 18/1/2025
+Time: 19:11
+Phone Number: +919651648985
+Image: /mnt/e/Programming-Projects/Hackathon/Pan-IIT/backend/core/utils/spiderman.jpg
+Caption: 
+--------------------
+Date: 18/1/2025
+Time: 19:15
+Phone Number: +919651648985
+Image: /mnt/e/Programming-Projects/Hackathon/Pan-IIT/backend/core/utils/spiderman.jpg
+Caption: 
+--------------------
+Date: 18/1/2025
+Time: 19:17
+Phone Number: +919651648985
+Image: /mnt/e/Programming-Projects/Hackathon/Pan-IIT/backend/core/utils/spiderman.jpg
+Caption: 
+--------------------
+Date: 18/1/2025
+Time: 19:22
+Phone Number: +919651648985
+Image: /mnt/e/Programming-Projects/Hackathon/Pan-IIT/backend/core/utils/spiderman.jpg
+Caption: Example image sent!
+--------------------
