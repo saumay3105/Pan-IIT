@@ -15,7 +15,7 @@ from .functionalities.video_synthesis import (
 )
 from .functionalities.text_processing import generate_answer_from_question
 from .models import VideoProcessingJob, Video
-from .tasks import generate_script_task, process_video_task
+from .tasks import generate_script_task, process_video_task, send_emails_to_target
 
 
 @api_view(["POST"])
@@ -78,6 +78,7 @@ def generate_video(request: HttpRequest):
                 text=text,
             ),
             process_video_task.si(processing_job.job_id),
+            send_emails_to_target.si(processing_job.job_id),
         ).apply_async()
 
         return Response(
