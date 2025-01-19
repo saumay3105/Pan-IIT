@@ -1,17 +1,24 @@
-import React, { useState, useEffect } from 'react';
-import { Instagram, Youtube, MessageCircle } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import { Instagram, Youtube, MessageCircle } from "lucide-react";
 
 const Modal = ({ isOpen, onClose, title, children, footer }) => {
   if (!isOpen) return null;
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content" onClick={e => e.stopPropagation()}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
           <h2>{title}</h2>
-          <button className="close-button" onClick={onClose}>&times;</button>
+          <button className="close-button" onClick={onClose}>
+            &times;
+          </button>
         </div>
-        <div className="modal-body">{children}</div>
+        <div
+          className="modal-body"
+          style={{ color: "#000", textAlign: "left" }}
+        >
+          {children}
+        </div>
         {footer && <div className="modal-footer">{footer}</div>}
       </div>
     </div>
@@ -22,21 +29,21 @@ const SocialLoginPage = () => {
   const [connectedPlatforms, setConnectedPlatforms] = useState({
     instagram: false,
     youtube: false,
-    whatsapp: false
+    whatsapp: false,
   });
-  
+
   const [selectedPlatform, setSelectedPlatform] = useState(null);
   const [showCredentialsDialog, setShowCredentialsDialog] = useState(false);
   const [showInitialDialog, setShowInitialDialog] = useState(false);
   const [credentials, setCredentials] = useState({
-    username: '',
-    password: '',
-    phoneNumber: ''
+    username: "",
+    password: "",
+    phoneNumber: "",
   });
 
   // Load connected platforms from localStorage on component mount
   useEffect(() => {
-    const savedPlatforms = localStorage.getItem('connectedPlatforms');
+    const savedPlatforms = localStorage.getItem("connectedPlatforms");
     if (savedPlatforms) {
       setConnectedPlatforms(JSON.parse(savedPlatforms));
     }
@@ -44,25 +51,28 @@ const SocialLoginPage = () => {
 
   // Save connected platforms to localStorage whenever they change
   useEffect(() => {
-    localStorage.setItem('connectedPlatforms', JSON.stringify(connectedPlatforms));
+    localStorage.setItem(
+      "connectedPlatforms",
+      JSON.stringify(connectedPlatforms)
+    );
   }, [connectedPlatforms]);
 
   const platforms = {
     instagram: {
-      name: 'Instagram',
+      name: "Instagram",
       icon: Instagram,
-      color: 'pink'
+      color: "pink",
     },
     youtube: {
-      name: 'YouTube',
+      name: "YouTube",
       icon: Youtube,
-      color: 'red'
+      color: "red",
     },
     whatsapp: {
-      name: 'WhatsApp',
+      name: "WhatsApp",
       icon: MessageCircle,
-      color: 'green'
-    }
+      color: "green",
+    },
   };
 
   const handleConnect = (platform) => {
@@ -72,33 +82,35 @@ const SocialLoginPage = () => {
   };
 
   const handleLogin = () => {
-    const isWhatsApp = selectedPlatform === 'whatsapp';
-    const isValidInput = isWhatsApp 
+    const isWhatsApp = selectedPlatform === "whatsapp";
+    const isValidInput = isWhatsApp
       ? credentials.phoneNumber
-      : (credentials.username && credentials.password);
+      : credentials.username && credentials.password;
 
     if (isValidInput) {
-      setConnectedPlatforms(prev => ({
+      setConnectedPlatforms((prev) => ({
         ...prev,
-        [selectedPlatform]: true
+        [selectedPlatform]: true,
       }));
       setShowCredentialsDialog(false);
-      setCredentials({ username: '', password: '', phoneNumber: '' });
+      setCredentials({ username: "", password: "", phoneNumber: "" });
     }
   };
 
   const renderCredentialsForm = () => {
-    if (selectedPlatform === 'whatsapp') {
+    if (selectedPlatform === "whatsapp") {
       return (
         <div className="credentials-form">
           <input
             type="tel"
             placeholder="Phone Number"
             value={credentials.phoneNumber}
-            onChange={(e) => setCredentials(prev => ({
-              ...prev,
-              phoneNumber: e.target.value
-            }))}
+            onChange={(e) =>
+              setCredentials((prev) => ({
+                ...prev,
+                phoneNumber: e.target.value,
+              }))
+            }
           />
         </div>
       );
@@ -110,19 +122,23 @@ const SocialLoginPage = () => {
           type="text"
           placeholder="Username"
           value={credentials.username}
-          onChange={(e) => setCredentials(prev => ({
-            ...prev,
-            username: e.target.value
-          }))}
+          onChange={(e) =>
+            setCredentials((prev) => ({
+              ...prev,
+              username: e.target.value,
+            }))
+          }
         />
         <input
           type="password"
           placeholder="Password"
           value={credentials.password}
-          onChange={(e) => setCredentials(prev => ({
-            ...prev,
-            password: e.target.value
-          }))}
+          onChange={(e) =>
+            setCredentials((prev) => ({
+              ...prev,
+              password: e.target.value,
+            }))
+          }
         />
       </div>
     );
@@ -136,28 +152,30 @@ const SocialLoginPage = () => {
           <span className="hero__boring-text">Connect Your</span>
           <span className="hero__gradient-text">Social Media Accounts</span>
         </h1>
-        
+
         <div className="features-container">
           <div className="features-grid">
             {Object.entries(platforms).map(([key, platform]) => (
               <div key={key} className="platform-card">
                 <div className="platform-info">
-                  <platform.icon 
+                  <platform.icon
                     className="platform-icon"
-                    style={{ color: platform.color }} 
+                    style={{ color: platform.color }}
                   />
                   <span className="platform-name">{platform.name}</span>
                 </div>
-                
-                <button 
-                  className={`connect-button ${connectedPlatforms[key] ? 'connected' : ''}`}
+
+                <button
+                  className={`connect-button ${
+                    connectedPlatforms[key] ? "connected" : ""
+                  }`}
                   disabled={connectedPlatforms[key]}
                   onClick={() => {
                     setSelectedPlatform(key);
                     setShowInitialDialog(true);
                   }}
                 >
-                  {connectedPlatforms[key] ? 'Connected' : 'Connect'}
+                  {connectedPlatforms[key] ? "Connected" : "Connect"}
                 </button>
               </div>
             ))}
@@ -168,33 +186,52 @@ const SocialLoginPage = () => {
         <Modal
           isOpen={showInitialDialog}
           onClose={() => setShowInitialDialog(false)}
-          title={`Connect to ${selectedPlatform ? platforms[selectedPlatform].name : ''}`}
+          title={`Connect to ${
+            selectedPlatform ? platforms[selectedPlatform].name : ""
+          }`}
           footer={
             <div className="modal-buttons">
-              <button className="btn-secondary" onClick={() => setShowInitialDialog(false)}>
+              <button
+                className="btn-secondary"
+                onClick={() => setShowInitialDialog(false)}
+              >
                 Cancel
               </button>
-              <button className="btn-primary" onClick={() => handleConnect(selectedPlatform)}>
+              <button
+                className="btn-primary"
+                onClick={() => handleConnect(selectedPlatform)}
+              >
                 Continue
               </button>
             </div>
           }
         >
-          <p>Would you like to connect your {selectedPlatform ? platforms[selectedPlatform].name : ''} account?</p>
+          <p>
+            Would you like to connect your{" "}
+            {selectedPlatform ? platforms[selectedPlatform].name : ""} account?
+          </p>
         </Modal>
 
         {/* Credentials Dialog */}
         <Modal
           isOpen={showCredentialsDialog}
           onClose={() => setShowCredentialsDialog(false)}
-          title={`Enter your ${selectedPlatform ? platforms[selectedPlatform].name : ''} ${selectedPlatform === 'whatsapp' ? 'phone number' : 'credentials'}`}
+          title={`Enter your ${
+            selectedPlatform ? platforms[selectedPlatform].name : ""
+          } ${
+            selectedPlatform === "whatsapp" ? "phone number" : "credentials"
+          }`}
           footer={
             <div className="modal-buttons">
-              <button 
+              <button
                 className="btn-secondary"
                 onClick={() => {
                   setShowCredentialsDialog(false);
-                  setCredentials({ username: '', password: '', phoneNumber: '' });
+                  setCredentials({
+                    username: "",
+                    password: "",
+                    phoneNumber: "",
+                  });
                 }}
               >
                 Cancel
@@ -208,7 +245,7 @@ const SocialLoginPage = () => {
           {renderCredentialsForm()}
         </Modal>
       </div>
-      
+
       <style jsx>{`
         .hero {
           position: relative;
@@ -299,13 +336,13 @@ const SocialLoginPage = () => {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
           transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .platform-card:hover {
           transform: translateY(-2px);
-          box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
 
         .platform-info {
@@ -460,8 +497,12 @@ const SocialLoginPage = () => {
         }
 
         @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
         }
 
         @keyframes slideIn {

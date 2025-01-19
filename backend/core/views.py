@@ -4,6 +4,9 @@ from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.http import HttpRequest, HttpResponse
+from video_generator.models import VideoProcessingJob
+from core.tasks import generate_image_posts
+from core.utils.instagram_utils import generate_caption, post_on_insta
 from core.utils.scraping_utils import extract_page
 from core.utils.text_processing import get_product_info
 import csv
@@ -16,20 +19,49 @@ from django.http import JsonResponse
 from django.core.mail import EmailMessage
 from django.conf import settings
 from .upload_video import upload_video_to_youtube
+from email.mime.image import MIMEImage
+
+
+def get_caption(content):
+    trends = extract_page()
+    content = "The post is about new financial scheme by Bajaj finserv introduced for students to help them pursure their degree by providing financial aid."
+    caption = generate_caption(trends, content)
+
+    return caption
 
 
 @api_view(["POST", "GET"])
-def start_scraping(request):
+def create_posts(request):
     if request.method == "POST":
-        extract_page()
-        print("called")
+        data = json.loads(request.body)
+        job_id = data.get("job_id")
+        generate_image_posts.delay(data.get("job_id"))
+        return Response({"status": "Task started successfully!", "data": job_id})
+    else:
+        return Response({"error": "Invalid request method."}, status=400)
 
-    return Response(data="scraped")
 
+@api_view(["POST", "GET"])
+def post_on_social_media(request):
+    if request.method == "POST":
+        data = json.loads(request.body)
+        job_id = data.get("job_id")
+        post_1 = (
+            os.path.join(
+                settings.MEDIA_ROOT, "generated_posts", f"post_1_{job_id}.pdf"
+            ),
+        )
+        video_job = VideoProcessingJob.objects.get(job_id=job_id)
+        caption_1 = get_caption(video_job.script)
+        post_on_insta(post_1, caption_1)
 
-@api_view(["POST"])
-def text_extraction(request: HttpRequest):
-    data = get_product_info()
+        post_2 = (
+            os.path.join(
+                settings.MEDIA_ROOT, "generated_posts", f"post_2_{job_id}.pdf"
+            ),
+        )
+        caption_2 = get_caption(video_job.script)
+        post_on_insta(post_2, caption_2)
 
 
 def extract_thumbnail(video_path):
@@ -63,9 +95,6 @@ def extract_thumbnail(video_path):
 
     except Exception as e:
         raise Exception(f"Error extracting thumbnail: {str(e)}")
-
-
-from email.mime.image import MIMEImage
 
 
 @api_view(["POST"])

@@ -20,9 +20,7 @@ function Home() {
             </span>
             <span>
               with
-              <span className="hero__gradient-text">
-                &nbsp;Adwise.AI
-              </span>
+              <span className="hero__gradient-text">&nbsp;AdWise.ai</span>
             </span>
           </h2>
           <p className="hero__description">
@@ -67,11 +65,11 @@ function Home() {
               Struggling to craft compelling ads or identify the best strategies
               for your product? Adwise.AI is here to revolutionize your
               advertising journey. Our OaaS (Optimization-as-a-Service) platform
-              simplifies the process by taking your product details or
-              documents and performing a thorough market analysis. Adwise.AI
-              then generates ad content tailored to current market trends,
-              ensuring your campaigns stay ahead of the competition. Say goodbye
-              to guesswork and hello to smarter, data-driven advertising.
+              simplifies the process by taking your product details or documents
+              and performing a thorough market analysis. Adwise.AI then
+              generates ad content tailored to current market trends, ensuring
+              your campaigns stay ahead of the competition. Say goodbye to
+              guesswork and hello to smarter, data-driven advertising.
             </p>
           </div>
         </section>

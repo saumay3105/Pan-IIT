@@ -1,0 +1,24 @@
+Date: 18/1/2025
+Time: 19:25
+Phone Number: +919651648985
+Image: E:\Programming-Projects\Hackathon\Pan-IIT\backend\core\utils\spiderman.jpg
+Caption: Example image sent!
+--------------------
+Date: 18/1/2025
+Time: 19:27
+Phone Number: +919651648985
+Image: E:\Programming-Projects\Hackathon\Pan-IIT\backend\core\utils\spiderman.jpg
+Caption: Example image sent!
+--------------------
+Date: 18/1/2025
+Time: 19:38
+Phone Number: +919651648985
+Image: E:\Programming-Projects\Hackathon\Pan-IIT\backend\core\utils\spiderman.jpg
+Caption: Example image sent!
+--------------------
+Date: 18/1/2025
+Time: 19:41
+Phone Number: +919651648985
+Image: E:\Programming-Projects\Hackathon\Pan-IIT\backend\core\utils\spiderman.jpg
+Caption: https://www.youtube.com/watch?v=Ht7O8gq2MaY&t=15s
+--------------------
