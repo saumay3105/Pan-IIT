@@ -7,6 +7,8 @@ import {
   Copy,
   Share2,
   MessageCircle,
+  Mail,
+  BookUp,
 } from "lucide-react";
 
 import "./VideoPlayer.css";
@@ -74,6 +76,30 @@ function VideoPlayer() {
     navigator.clipboard.writeText(currentUrl);
     alert("URL copied to clipboard!");
   };
+  const handleCreatePoster = async () => {
+    const storedJobId = localStorage.getItem("currentJobId");
+
+    if (!storedJobId) {
+      console.error("No Job ID found in localStorage.");
+      return;
+    }
+
+    try {
+      const response = await fetch("http://127.0.0.1:8000/create-post/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ job_id: storedJobId }),
+      });
+      if (response.ok) {
+        const result = await response.json();
+        console.log("Poster generated successfully:", result);
+      }
+    } catch (error) {
+      console.error("Error Generating Poster:", error);
+    }
+  };
 
   const handleSendEmail = async () => {
     const storedJobId = localStorage.getItem("currentJobId");
@@ -100,6 +126,57 @@ function VideoPlayer() {
       }
     } catch (error) {
       console.error("Error sending email:", error);
+    }
+  };
+
+  const handlePublish = async () => {
+    const storedJobId = localStorage.getItem("currentJobId");
+
+    if (!storedJobId) {
+      console.error("No Job ID found in localStorage.");
+      return;
+    }
+
+    try {
+      const response = await fetch(
+        "http://127.0.0.1:8000/post-on-social-media/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ job_id: storedJobId }),
+        }
+      );
+
+      if (response.ok) {
+        const result = await response.json();
+        console.log("POst sent successfully:", result);
+      } else {
+        console.error("Failed to send Post:", response.statusText);
+      }
+    } catch (error) {
+      console.error("Error sending Post:", error);
+    }
+  };
+
+  const handleWhatsappSend = async () => {
+    try {
+      const response = await fetch("http://127.0.0.1:8000/send-whatsapp/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        console.log("Message sent successfully:", result);
+      } else {
+        console.error("Failed to send message:", response.statusText);
+      }
+    } catch (error) {
+      console.error("Error sending message:", error);
     }
   };
 
@@ -150,7 +227,7 @@ function VideoPlayer() {
           <Copy size={16} style={{ marginRight: "5px" }} /> Copy URL
         </button>
         <button className="share-btn" onClick={handleSendEmail}>
-          <Copy size={16} style={{ marginRight: "5px" }} /> Send Email
+          <Mail size={16} style={{ marginRight: "5px" }} /> Send Email
         </button>
 
         <a
@@ -185,10 +262,33 @@ function VideoPlayer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="share-btn">
+          <button className="share-btn" onClick={handleWhatsappSend}>
             <MessageCircle size={16} style={{ marginRight: "5px" }} /> WhatsApp
           </button>
         </a>
+        <button className="poster-btn" onClick={handleCreatePoster}>
+          <BookUp size={16} style={{ marginRight: "5px" }} /> Generate Poster
+        </button>
+      </div>
+      <div style={{ display: "flex", gap: "10px" }}>
+        <img
+          width="500"
+          height="500"
+          src="/post_1_f3088b9d-020e-4ffb-9c2b-d188f8878e64.pdf.jpg"
+          alt=""
+        />
+        <img
+          width="500"
+          height="500"
+          src="/post_2_f3088b9d-020e-4ffb-9c2b-d188f8878e64.pdf.jpg"
+          alt=""
+        />
+      </div>
+
+      <div className="share-buttons">
+        <button className="poster-btn" onClick={handlePublish}>
+          Publish
+        </button>
       </div>
     </div>
   );

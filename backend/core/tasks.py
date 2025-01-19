@@ -16,20 +16,20 @@ def generate_image_posts(job_id: uuid.UUID, text: str = None):
         # posts_data = generate_post_content(job.script)
         posts_data = [
             {
-                "heading": "Sentiment Analysis",
-                "subtitle": "Public Opinion During the Pandemic",
-                "button": "Learn More",
-                "description": "public sentiment on social media evolved.",
-                "address": "link-to-research-paper",
-                "image_keyword": "social media sentiment analysis graph",
+                "heading": "Bajaj Allianz",
+                "subtitle": "Insurance Company",
+                "button": "Read More",
+                "description": "Ensuring miles of smiles!",
+                "address": "bagichelp@bajajallianz.co.in",
+                "image_keyword": "insurance services car coverage",
             },
             {
-                "heading": "AI & Pandemic Response",
-                "subtitle": "Transformer Models Outperform in Sentiment Analysis",
-                "button": "Explore the Study",
-                "description": "A study using 90,000 tweets shows that advanced AI models.",
-                "address": "link-to-research-paper",
-                "image_keyword": "AI graph showing BERT's superior performance",
+                "heading": "Private Car Policy",
+                "subtitle": "Car Insurance Plan",
+                "button": "Read More",
+                "description": "Protecting your car and you!",
+                "address": "www.bajajallianz.com",
+                "image_keyword": "car insurance policy brochure",
             },
         ]
         if len(posts_data) >= 1:

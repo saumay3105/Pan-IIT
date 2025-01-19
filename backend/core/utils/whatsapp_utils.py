@@ -2,11 +2,13 @@ import pywhatkit as kit
 
 # Specify the phone number (with country code) and the message
 phone_number = "+919651648985"
-message = "Hello from Miran! This is an instant WhatsApp message."
+message = "Hello from Miran! Check out this video: "
 
 # Send the message instantly
-kit.playonyt(
-    phone_number,
-    img_path="E:\\Programming-Projects\\Hackathon\\Pan-IIT\\backend\\core\\utils\\spiderman.jpg",
-    caption="https://www.youtube.com/watch?v=Ht7O8gq2MaY&t=15s",
-)
+
+
+def send_whatsapp_message():
+    kit.sendwhatmsg_instantly(
+        phone_number,
+        caption=message + "https://www.youtube.com/shorts/3S7Ub_gQm5c",
+    )
