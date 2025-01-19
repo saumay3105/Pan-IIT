@@ -8,10 +8,14 @@ from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 from celery import shared_task
 from moviepy.editor import VideoFileClip
+import pandas as pd
+
+from .functionalities.email_campaign_utils import process_target_audience
 
 from .models import VideoProcessingJob, Video
 from .functionalities.text_processing import (
     generate_script,
+    get_loan_type,
 )
 from .functionalities.video_synthesis import (
     generate_speech_and_viseme_from_text,
@@ -52,6 +56,26 @@ def generate_script_task(
     finally:
         job.save()
 
+
+@shared_task
+def send_emails_to_target(video_job_id):
+    try:
+        video_job = VideoProcessingJob.objects.get(job_id=video_job_id)
+    except ObjectDoesNotExist:
+        return {
+            "status": "error",
+            "job_id": str(video_job_id),
+            "message": f"No VideoProcessingJob found with id {video_job_id}",
+        }
+
+    script = video_job.script
+    loan_type = get_loan_type(script)
+    user_data_path = "user_summary_data_2_days_times.csv"
+    user_df = pd.read_csv(user_data_path)
+    output_file = os.path.join(
+        settings.MEDIA_ROOT, "target_audience", f"{video_job_id}.csv"
+    )
+    process_target_audience(loan_type, user_df, output_file)
 
 @shared_task
 def process_video_task(video_job_id):

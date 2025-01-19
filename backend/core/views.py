@@ -88,7 +88,9 @@ def send_email_with_video(request):
         if not os.path.exists(video_file_path):
             return JsonResponse({"error": "Video file does not exist."}, status=404)
 
-        csv_file_path = os.path.join(os.path.dirname(__file__), "emails.csv")
+        csv_file_path = os.path.join(
+            settings.MEDIA_ROOT, "target_audience", f"{job_id}.csv"
+        )
         title = "Sample Video Title"
         description = "Description of the video."
         tags = ["sample", "video", "youtube"]
