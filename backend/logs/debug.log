@@ -1001,3 +1001,4 @@
 [19/Jan/2025 02:10:49] INFO [basehttp.py:213] [log_message] "GET /api/auth/user/ HTTP/1.1" 200 54
 [19/Jan/2025 02:10:49] INFO [basehttp.py:213] [log_message] "GET /media/generated_videos/d0a5e13b-5ec2-4c66-b073-897486b568d4.mp4 HTTP/1.1" 304 0
 [19/Jan/2025 02:12:26] ERROR [basehttp.py:213] [log_message] "POST /send-emails/ HTTP/1.1" 500 53
+[19/Jan/2025 02:22:44] INFO [basehttp.py:213] [log_message] "GET /video/e5def25c-7332-4bed-9cda-9dfd6accabc0/ HTTP/1.1" 200 13322
