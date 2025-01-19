@@ -69,13 +69,17 @@ def send_emails_to_target(video_job_id):
         }
 
     script = video_job.script
-    loan_type = get_loan_type(script)
-    user_data_path = "user_summary_data_2_days_times.csv"
-    user_df = pd.read_csv(user_data_path)
-    output_file = os.path.join(
-        settings.MEDIA_ROOT, "target_audience", f"{video_job_id}.csv"
-    )
-    process_target_audience(loan_type, user_df, output_file)
+    if script:
+        loan_type = get_loan_type(script)
+        user_data_path = os.path.join(
+            os.path.dirname(__file__), "user_summary_data_2_days_times.csv"
+        )
+        user_df = pd.read_csv(user_data_path)
+        output_file = os.path.join(
+            settings.MEDIA_ROOT, "target_audience", f"{video_job_id}.csv"
+        )
+        process_target_audience(loan_type, user_df, output_file)
+
 
 @shared_task
 def process_video_task(video_job_id):
@@ -102,7 +106,9 @@ def process_video_task(video_job_id):
     try:
         print(video_job.language)
         visemes = generate_speech_and_viseme_from_text(
-            text=video_job.script, audio_output_file=audio_output_file, language=video_job.language
+            text=video_job.script,
+            audio_output_file=audio_output_file,
+            language=video_job.language,
         )
 
         asyncio.run(

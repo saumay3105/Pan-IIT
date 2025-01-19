@@ -89,7 +89,7 @@ function VideoPlayer() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ jobId: storedJobId }),
+        body: JSON.stringify({ job_id: storedJobId }),
       });
 
       if (response.ok) {
@@ -102,8 +102,6 @@ function VideoPlayer() {
       console.error("Error sending email:", error);
     }
   };
-
-  
 
   if (loading) {
     return <p>Loading...</p>;
