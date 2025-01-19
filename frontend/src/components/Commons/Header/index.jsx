@@ -9,11 +9,12 @@ function Header() {
 
   // Check social media connection status
   const checkConnectionStatus = () => {
-    const storedPlatforms = localStorage.getItem('connectedPlatforms');
+    const storedPlatforms = localStorage.getItem("connectedPlatforms");
     if (storedPlatforms) {
       const platforms = JSON.parse(storedPlatforms);
       // Check if all platforms are connected
-      const isAllConnected = platforms.instagram && platforms.youtube && platforms.whatsapp;
+      const isAllConnected =
+        platforms.instagram && platforms.youtube && platforms.whatsapp;
       setAllConnected(isAllConnected);
     } else {
       setAllConnected(false);
@@ -24,7 +25,7 @@ function Header() {
   useEffect(() => {
     checkConnectionStatus();
     const intervalId = setInterval(checkConnectionStatus, 1000);
-    
+
     // Cleanup interval on unmount
     return () => clearInterval(intervalId);
   }, []);
@@ -33,7 +34,7 @@ function Header() {
     <header className="header">
       <div className="header__container">
         <Link to="/">
-          <span className="logo">Adwise.AI</span>
+          <span className="logo">AdWise.ai</span>
         </Link>
         <nav>
           {!user ? (
@@ -75,14 +76,14 @@ function Header() {
           )}
         </nav>
       </div>
-      
+
       <style jsx>{`
         .connected-status {
           display: flex;
           align-items: center;
           gap: 8px;
         }
-        
+
         .green-dot {
           width: 8px;
           height: 8px;

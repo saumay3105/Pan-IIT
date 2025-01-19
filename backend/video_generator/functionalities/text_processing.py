@@ -1,5 +1,6 @@
 import os
 from typing import List
+from collections import Counter
 import textract
 import google.generativeai as genai
 from dotenv import load_dotenv, find_dotenv
@@ -72,7 +73,7 @@ def generate_keywords(text: str):
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel("gemini-1.5-flash")
     llm_prompt = """
-    Given the script, create a sequence of descriptive prompts for image generation that accurately reflect the key themes and concepts presented in the text.  The prompts must be in sequence with the script and must describe the text accurately. Each prompt should be vivid and evoke clear visual imagery, suitable for various artistic interpretations. Despite being descriptive keep it less than 15 words. The number of prompts should be flexible, depending on the richness of the text. As you progress through the document, provide each prompt in the order that corresponds with the content, ensuring that they collectively depict the narrative or themes in a cohesive manner. The prompts should not have any words related to company name or things that a Diffsuion model cannot generate. Output the prompts as a python list, ready for sequential use in a generative AI image generation API.
+    Given the script, create a sequence of descriptive prompts for image generation that accurately reflect the key themes and concepts presented in the text.  The prompts must be in sequence with the script and must describe the text accurately. Each prompt should be vivid and evoke clear visual imagery, suitable for various artistic interpretations. Each prompt should contain only one phrase of max 10 words. The number of prompts should be flexible, depending on the richness of the text. As you progress through the document, provide each prompt in the order that corresponds with the content, ensuring that they collectively depict the narrative or themes in a cohesive manner. Output the prompts as a python list, ready for sequential use in a generative AI image generation API.
     """
 
     response = model.generate_content(llm_prompt + text)
@@ -123,3 +124,28 @@ def generate_answer_from_question(
     response = model.generate_content(prompt)
 
     return response.text
+
+def get_loan_type(script):
+    # Dictionary mapping loan types to their keywords
+    loan_keywords = {
+        "home_loan": ["home-loans", "mortgage"],
+        "car_loan": ["auto-loans", "car-loans"],
+        "personal_loan": ["personal-loans"],
+        "health_insurance": ["health-insurance"],
+        "life_insurance": ["life-insurance"],
+    }
+    
+    # Counter to track occurrences of each loan type
+    loan_counts = Counter()
+    
+    # Lowercase the script for case-insensitive matching
+    script = script.lower()
+    
+    # Count occurrences of each keyword
+    for loan_type, keywords in loan_keywords.items():
+        for keyword in keywords:
+            loan_counts[loan_type] += script.count(keyword)
+    
+    # Find the loan type with the most occurrences
+    most_common_loan = loan_counts.most_common(1)
+    return most_common_loan[0][0] if most_common_loan else None
