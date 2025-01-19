@@ -41,6 +41,7 @@ h2 {
   margin-top: 20px;
   display: flex;
   gap: 10px;
+  margin-bottom: 40px;
 }
 
 .share-btn {
@@ -66,4 +67,15 @@ h2 {
   width: 50%;
   height: 100%;
   transform: translate(-50%, 0px);
+}
+.poster-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
 }

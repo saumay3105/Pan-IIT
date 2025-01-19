@@ -9,6 +9,7 @@ from core.tasks import generate_image_posts
 from core.utils.instagram_utils import generate_caption, post_on_insta
 from core.utils.scraping_utils import extract_page
 from core.utils.text_processing import get_product_info
+from core.utils.whatsapp_utils import send_whatsapp_message
 import csv
 import cv2
 import os
@@ -43,25 +44,38 @@ def create_posts(request):
 
 @api_view(["POST", "GET"])
 def post_on_social_media(request):
-    if request.method == "POST":
-        data = json.loads(request.body)
-        job_id = data.get("job_id")
-        post_1 = (
-            os.path.join(
-                settings.MEDIA_ROOT, "generated_posts", f"post_1_{job_id}.pdf"
-            ),
-        )
-        video_job = VideoProcessingJob.objects.get(job_id=job_id)
-        caption_1 = get_caption(video_job.script)
-        post_on_insta(post_1, caption_1)
+    try:
+        if request.method == "POST":
+            data = json.loads(request.body)
+            job_id = data.get("job_id")
+            post_1 = (
+                os.path.join(
+                    settings.MEDIA_ROOT, "generated_posts", f"post_1_{job_id}.pdf"
+                ),
+            )
+            video_job = VideoProcessingJob.objects.get(job_id=job_id)
+            caption_1 = get_caption(video_job.script)
+            post_on_insta(post_1, caption_1)
 
-        post_2 = (
-            os.path.join(
-                settings.MEDIA_ROOT, "generated_posts", f"post_2_{job_id}.pdf"
-            ),
-        )
-        caption_2 = get_caption(video_job.script)
-        post_on_insta(post_2, caption_2)
+            post_2 = (
+                os.path.join(
+                    settings.MEDIA_ROOT, "generated_posts", f"post_2_{job_id}.pdf"
+                ),
+            )
+            caption_2 = get_caption(video_job.script)
+            post_on_insta(post_2, caption_2)
+            return Response({"status": "Posts created and posted successfully!"})
+    except Exception as e:
+        print(e)
+        return Response({"error": str(e)}, status=500)
+
+
+def send_whatsapp_message_view(request):
+    if request.method == "POST":
+        send_whatsapp_message()
+        return Response({"status": "Message sent successfully!"})
+    else:
+        return Response({"error": "Invalid request method."}, status=400)
 
 
 def extract_thumbnail(video_path):

@@ -9,7 +9,12 @@ def post_on_insta(image_location, caption):
     cl.login("team.bigo4", "threesome")
 
     user_id = cl.user_id_from_username("team.bigo4")
-    cl.photo_upload(image_location, caption)
+    print(image_location)
+    print(caption)
+    import time
+
+    time.sleep(5)
+    cl.photo_upload(f"{image_location[0]}.jpg", caption)
 
 
 load_dotenv()

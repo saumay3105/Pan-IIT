@@ -6,6 +6,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
+from pdf2image import convert_from_path
 import os
 
 
@@ -172,18 +173,7 @@ def add_text_to_design_template(
 
     print(f"Design {template_id} Completed!")
 
+    pages = convert_from_path(output_pdf, 500)
 
-# Example usage
-# content_template = TemplateContent(
-#     heading="Bajaj Allianz",
-#     subtitle="Fintech company",
-#     button="Read More",
-#     description="This is some description of the product",
-#     email="info@bajajfinserv.com",
-#     image_url="https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/f383cda8-0c5c-4579-9606-0df72fcb9aee/1085f340-bfeb-424e-a9d5-723d1f63d29b.png",
-# )
-# Use template 2 with specific content
-# add_text_to_design_template("3.pdf", "4out.pdf", "3", content_template)
-
-# Use template 3 with different content
-# add_text_to_certificate_template("3.pdf", "3out.pdf", "3", content_template_3)
+    for count, page in enumerate(pages):
+        page.save(f"{output_pdf}.jpg", "JPEG")
